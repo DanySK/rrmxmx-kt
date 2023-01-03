@@ -1,8 +1,4 @@
-# A template for Kotlin multiplatform projects 
+# rrmxmx for Kotlin-multiplatform
 
-## Features
-* Automatic publish on Maven Central
-* Automatic QA
-* Pre-configured Kotest multiplatform
-* Pre-configured Renovate
-* Pre-configured semantic release for conventional commits
+This project implements rrmxmx as proposed by [Pelle Evensen](http://mostlymangling.blogspot.com/2018/07/on-mixing-functions-in-fast-splittable.html)
+
