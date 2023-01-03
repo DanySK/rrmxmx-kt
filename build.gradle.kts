@@ -12,7 +12,6 @@ plugins {
     alias(libs.plugins.dokka)
     alias(libs.plugins.gitSemVer)
     alias(libs.plugins.kotlin.qa)
-    alias(libs.plugins.multiJvmTesting)
     alias(libs.plugins.npm.publish)
     alias(libs.plugins.publishOnCentral)
     alias(libs.plugins.taskTree)
@@ -31,9 +30,6 @@ fun KotlinNativeTarget.binarySetup() {
     binaries {
         sharedLib()
         staticLib()
-        "main".let {
-            executable { entryPoint = it }
-        }
     }
 }
 
@@ -152,8 +148,8 @@ signing {
 }
 
 publishOnCentral {
-    projectLongName.set("Template for Kotlin Multiplatform Project")
-    projectDescription.set("A template repository for Kotlin Multiplatform projects")
+    projectLongName.set("rrmxmx for Kotlin-MP")
+    projectDescription.set("A Kotlin implementation of the rrmxmx hash function")
     repository("https://maven.pkg.github.com/danysk/${rootProject.name}".toLowerCase()) {
         user.set("DanySK")
         password.set(System.getenv("GITHUB_TOKEN"))
