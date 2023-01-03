@@ -1,3 +1,26 @@
+## 1.0.0 (2023-01-03)
+
+
+### Features
+
+* add random generator ([4261097](https://github.com/DanySK/rrmxmx-kt/commit/426109773ad46d951c5c5ee6c4eb11a07f56911c))
+* initial implementation of rrmxmx ([e9e8b9d](https://github.com/DanySK/rrmxmx-kt/commit/e9e8b9d318685e288ea1b9b7060eec1059485e85))
+
+
+### Style improvements
+
+* add some initial documentation ([0d25786](https://github.com/DanySK/rrmxmx-kt/commit/0d25786811584f57c19061d315ab59baf9075c22))
+
+
+### Documentation
+
+* write a minimal readme ([a35d4cf](https://github.com/DanySK/rrmxmx-kt/commit/a35d4cf1f9a7e9850cb92f08c8d45596b8039d7b))
+
+
+### Tests
+
+* **windows:** rename test to avoid Windows complaining about file names ([b3a70f5](https://github.com/DanySK/rrmxmx-kt/commit/b3a70f534d3be99340544ca959d666e876d87402))
+
 ## [0.1.5](https://github.com/DanySK/Template-for-Kotlin-Multiplatform-Projects/compare/0.1.4...0.1.5) (2023-01-02)
 
 
