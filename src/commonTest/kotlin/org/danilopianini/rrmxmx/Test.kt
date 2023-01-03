@@ -4,7 +4,8 @@ import org.danilopianini.rrmxmx.Rrmxmx
 
 class Test : StringSpec(
     {
-        "test table from https://archive.vn/DhXjB#selection-8831.1-8831.32" {
+        // from: https://archive.vn/DhXjB#selection-8831.1-8831.32
+        "all tests of the original author should pass" {
             mapOf(
                 0x0000000000000000UL to 0x0000000000000000UL,
                 0x0000000000000001UL to 0x23085d6f7a569905UL,
