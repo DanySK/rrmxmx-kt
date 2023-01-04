@@ -1,3 +1,33 @@
+## [1.1.0](https://github.com/DanySK/rrmxmx-kt/compare/1.0.0...1.1.0) (2023-01-04)
+
+
+### Features
+
+* add a Kotlin-compliant RrmxmxRandom ([7eea16e](https://github.com/DanySK/rrmxmx-kt/commit/7eea16efd1206f11fd1666ab237252b34bf26f86))
+
+
+### Dependency updates
+
+* **deps:** drops kotlin-stdlib-reflect ([515023e](https://github.com/DanySK/rrmxmx-kt/commit/515023e3de0f988301bcc194c6465b45faea5f09))
+* **deps:** update plugin com.gradle.enterprise to v3.11.4 ([425b388](https://github.com/DanySK/rrmxmx-kt/commit/425b388817a8cff0e2c1bf72e237d37c8be5a584))
+* **deps:** update plugin com.gradle.enterprise to v3.12.1 ([1b6209d](https://github.com/DanySK/rrmxmx-kt/commit/1b6209d4bb192b824cbe42d6d073b6fbfd22e01b))
+* **deps:** update plugin kotlin-qa to v0.29.2 ([0660a57](https://github.com/DanySK/rrmxmx-kt/commit/0660a57a5a22f278fe6810f06b5edc4a9165c7b6))
+* **deps:** update plugin kotlin-qa to v0.30.0 ([9822a49](https://github.com/DanySK/rrmxmx-kt/commit/9822a4995f2df0ef35bd0f89efc64b421d713e9e))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v1.0.25 ([ce07f6c](https://github.com/DanySK/rrmxmx-kt/commit/ce07f6c9f7de6819d9761bbb9c22df17b6736a0e))
+* **deps:** update plugin publishoncentral to v2.0.12 ([95633cd](https://github.com/DanySK/rrmxmx-kt/commit/95633cdc842099d74bb6807e7d5d6a4068e80403))
+* **deps:** update plugin tasktree to v2.1.1 ([1c8013f](https://github.com/DanySK/rrmxmx-kt/commit/1c8013fe3885632f81ee0239983742c5dc3cb86e))
+
+
+### Build and continuous integration
+
+* **release:** fix broken concurrency of release job ([e35d2ca](https://github.com/DanySK/rrmxmx-kt/commit/e35d2ca13d5f8ec0cef34a0365a216a0d710dff2))
+
+
+### Documentation
+
+* **deps:** update plugin dokka to v1.7.20 ([d9d5d7f](https://github.com/DanySK/rrmxmx-kt/commit/d9d5d7f7d95723a5917bc5a52af5d30cbcdec631))
+* **readme:** explain briefly what rrmxmx is ([4427a42](https://github.com/DanySK/rrmxmx-kt/commit/4427a4201072bf7b0baa1dec2a709bcb52e53e8e))
+
 ## 1.0.0 (2023-01-03)
 
 
