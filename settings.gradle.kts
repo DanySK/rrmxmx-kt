@@ -1,13 +1,3 @@
-@file:Suppress("UnstableApiUsage")
-
-pluginManagement {
-    repositories {
-        gradlePluginPortal()
-        google()
-        mavenCentral()
-    }
-}
-
 plugins {
     id("com.gradle.enterprise") version "3.12.1"
     id("org.danilopianini.gradle-pre-commit-git-hooks") version "1.1.1"
