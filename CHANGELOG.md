@@ -1,3 +1,22 @@
+## [1.1.1](https://github.com/DanySK/rrmxmx-kt/compare/1.1.0...1.1.1) (2023-01-08)
+
+
+### Bug Fixes
+
+* use the correct version of the git-semver plugin ([01c9678](https://github.com/DanySK/rrmxmx-kt/commit/01c9678ccbe0db68f230d219801fc53a498b590b))
+
+
+### Dependency updates
+
+* **deps:** update plugin npm-publish to v3.2.0 ([07cffcf](https://github.com/DanySK/rrmxmx-kt/commit/07cffcf1c0c4fbf15a490e11a5dbd8ca2792d606))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v1.1.1 ([535a551](https://github.com/DanySK/rrmxmx-kt/commit/535a5514f64b8aec232df877644565b38b3fbc97))
+
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v3.3.0 ([ae7b6bf](https://github.com/DanySK/rrmxmx-kt/commit/ae7b6bfd78495ca315964c75ec0d518731cd92c3))
+* **deps:** update danysk/action-checkout action to v0.2.5 ([e9afbe9](https://github.com/DanySK/rrmxmx-kt/commit/e9afbe97e26908a108228e18f9402544fc784356))
+
 ## [1.1.0](https://github.com/DanySK/rrmxmx-kt/compare/1.0.0...1.1.0) (2023-01-04)
 
 
