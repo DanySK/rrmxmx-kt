@@ -1,3 +1,17 @@
+## [1.1.2](https://github.com/DanySK/rrmxmx-kt/compare/1.1.1...1.1.2) (2023-02-05)
+
+
+### Build and continuous integration
+
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.1.21 ([8592c03](https://github.com/DanySK/rrmxmx-kt/commit/8592c03c4c8ca37cf6f183b9d2f404cbe1bd2358))
+
+
+### Dependency updates
+
+* **core-deps:** update kotlin monorepo to v1.8.10 ([03208e6](https://github.com/DanySK/rrmxmx-kt/commit/03208e645cad86bade3b8eec2c3864364ca88cbb))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.16 ([f650b33](https://github.com/DanySK/rrmxmx-kt/commit/f650b33aff3e5aa7f066d4a93e7b48136fc6b03e))
+* **deps:** update node.js to 18.13 ([23822f6](https://github.com/DanySK/rrmxmx-kt/commit/23822f6aa60bc290d00807aab7c0fce61395fc6d))
+
 ## [1.1.1](https://github.com/DanySK/rrmxmx-kt/compare/1.1.0...1.1.1) (2023-01-08)
 
 
