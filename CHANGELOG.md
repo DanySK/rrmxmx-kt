@@ -1,3 +1,42 @@
+## [1.1.3](https://github.com/DanySK/rrmxmx-kt/compare/1.1.2...1.1.3) (2023-03-04)
+
+
+### Build and continuous integration
+
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.1.22 ([6e570d8](https://github.com/DanySK/rrmxmx-kt/commit/6e570d8cbdde7b6eeb070c45f9effa6a31599644))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.1.23 ([05f7291](https://github.com/DanySK/rrmxmx-kt/commit/05f72919a26f10a4d5eb72310dddb76e6d7fed18))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.1.24 ([33551d8](https://github.com/DanySK/rrmxmx-kt/commit/33551d82cd7eb00e8a8f71983d52765c9acc7cc0))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.1.25 ([932a542](https://github.com/DanySK/rrmxmx-kt/commit/932a542cfa182873d94daf831b1db5e0d5595647))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.1.26 ([221cbe5](https://github.com/DanySK/rrmxmx-kt/commit/221cbe5c4ce722664c75ba9e55071f09c4fc396f))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.2.0 ([028eedd](https://github.com/DanySK/rrmxmx-kt/commit/028eedd043a2b9327082730f2c835eee49f467af))
+
+
+### Dependency updates
+
+* **deps:** update dependency gradle to v8 ([bcef97f](https://github.com/DanySK/rrmxmx-kt/commit/bcef97fd30b098da5811d27ff533ddde7734579f))
+* **deps:** update node.js to 18.14 ([439cb38](https://github.com/DanySK/rrmxmx-kt/commit/439cb38493d7c8d9263c1ad8066ed9be62fadcc1))
+* **deps:** update plugin com.gradle.enterprise to v3.12.3 ([2042a0a](https://github.com/DanySK/rrmxmx-kt/commit/2042a0a1a84e8e3403749defbadb8f2ec3185037))
+* **deps:** update plugin com.gradle.enterprise to v3.12.4 ([8a80f03](https://github.com/DanySK/rrmxmx-kt/commit/8a80f0358bbad5cee8652de2ca638a89c68b9bb7))
+* **deps:** update plugin gitsemver to v1.0.2 ([bf78568](https://github.com/DanySK/rrmxmx-kt/commit/bf78568155a12317f76d0efb8baa9b84df5a8625))
+* **deps:** update plugin gitsemver to v1.1.1 ([8034168](https://github.com/DanySK/rrmxmx-kt/commit/803416893f777d442f4fe002ae9e22eb0a29fae1))
+* **deps:** update plugin gitsemver to v1.1.2 ([7f3fad3](https://github.com/DanySK/rrmxmx-kt/commit/7f3fad39e318ff620c922968283574340af7099e))
+* **deps:** update plugin kotlin-qa to v0.34.0 ([983439e](https://github.com/DanySK/rrmxmx-kt/commit/983439e246b788fe6a67f162685740dc89034e09))
+* **deps:** update plugin kotlin-qa to v0.34.1 ([6f53e9d](https://github.com/DanySK/rrmxmx-kt/commit/6f53e9d7b3d8927213d98685be44a6bfa6d09881))
+* **deps:** update plugin kotlin-qa to v0.34.2 ([e06b7eb](https://github.com/DanySK/rrmxmx-kt/commit/e06b7ebe805d563902aa4d4b5a58bed9734edc79))
+* **deps:** update plugin kotlin-qa to v0.35.0 ([ab5d7ba](https://github.com/DanySK/rrmxmx-kt/commit/ab5d7baf0cb5759c91c65c95b6881782c2919b38))
+* **deps:** update plugin npm-publish to v3.2.1 ([01a18a0](https://github.com/DanySK/rrmxmx-kt/commit/01a18a0f6304bc671bc82bf74dcfb3befd356db6))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v1.1.2 ([713770b](https://github.com/DanySK/rrmxmx-kt/commit/713770b0f66ba5ad1562ca0c4fad15047cb85c7c))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v1.1.3 ([2edf304](https://github.com/DanySK/rrmxmx-kt/commit/2edf304d5937770d1a4aed386e9db60aa9335389))
+* **deps:** update plugin publishoncentral to v2.0.13 ([37410b1](https://github.com/DanySK/rrmxmx-kt/commit/37410b157019c529380bfce9774e4b43a6bcb9b7))
+* **deps:** update plugin publishoncentral to v3 ([e285b0a](https://github.com/DanySK/rrmxmx-kt/commit/e285b0a72cf8e39a7adfb7f7690eb24884a7a98f))
+* **deps:** update plugin publishoncentral to v3.2.4 ([c127d85](https://github.com/DanySK/rrmxmx-kt/commit/c127d85ea6d7a32a03e94e5a9ce3eccfe5b1a749))
+* **deps:** update plugin publishoncentral to v3.3.0 ([8a132f3](https://github.com/DanySK/rrmxmx-kt/commit/8a132f3e357c8263c132b6d9d132fb79fe085ac7))
+
+
+### Documentation
+
+* **deps:** update plugin dokka to v1.8.10 ([642adfc](https://github.com/DanySK/rrmxmx-kt/commit/642adfc71ec1109b0ee18a6d8b44e43ba01f1b0c))
+
 ## [1.1.2](https://github.com/DanySK/rrmxmx-kt/compare/1.1.1...1.1.2) (2023-02-05)
 
 
