@@ -1,3 +1,27 @@
+## [1.1.4](https://github.com/DanySK/rrmxmx-kt/compare/1.1.3...1.1.4) (2023-03-14)
+
+
+### Bug Fixes
+
+* **ci:** setup CI for publishing multiplatform targets ([88f9cac](https://github.com/DanySK/rrmxmx-kt/commit/88f9cac752c55bb083714e6b0eee54a29fcdfe3e))
+
+
+### Dependency updates
+
+* **deps:** update dependency gradle to v8.0.2 ([8e0a1bc](https://github.com/DanySK/rrmxmx-kt/commit/8e0a1bc22e46a756a3eaf8606502ef07ab8ada04))
+* **deps:** update node.js to 18.15 ([118d039](https://github.com/DanySK/rrmxmx-kt/commit/118d039145b668e63a9eab1cf4e6c1cbf4f9dafc))
+* **deps:** update plugin gitsemver to v1.1.4 ([b2ad30d](https://github.com/DanySK/rrmxmx-kt/commit/b2ad30d485c437251359dd61ee4fae6ed717960a))
+* **deps:** update plugin kotlin-qa to v0.36.1 ([d9cd715](https://github.com/DanySK/rrmxmx-kt/commit/d9cd715fc230010f49b186ac78fce79255d63a7e))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v1.1.5 ([44bf69d](https://github.com/DanySK/rrmxmx-kt/commit/44bf69d2b0b5f1679ea70ebbe8fe9342b313d9ae))
+* **deps:** update plugin publishoncentral to v3.3.1 ([f55339e](https://github.com/DanySK/rrmxmx-kt/commit/f55339e5b53cf94ce67751fcdab2afa1129a2e24))
+* **deps:** update plugin publishoncentral to v3.3.3 ([556b238](https://github.com/DanySK/rrmxmx-kt/commit/556b238e540bbcdc428512521063d7810121e660))
+* **deps:** update plugin publishoncentral to v3.4.0 ([de44d2c](https://github.com/DanySK/rrmxmx-kt/commit/de44d2ccabf76d863e68383269fdb9c13bcda5df))
+
+
+### General maintenance
+
+* **build:** enable all the available platforms with host-specific targets setup ([c68a6c7](https://github.com/DanySK/rrmxmx-kt/commit/c68a6c7cffd4c4409112bcf2b99e3ac05d1234a5))
+
 ## [1.1.3](https://github.com/DanySK/rrmxmx-kt/compare/1.1.2...1.1.3) (2023-03-04)
 
 
