@@ -1,3 +1,11 @@
+## [1.1.5](https://github.com/DanySK/rrmxmx-kt/compare/1.1.4...1.1.5) (2023-03-15)
+
+
+### Bug Fixes
+
+* **ci:** add missing dependency between jobs ([15621e5](https://github.com/DanySK/rrmxmx-kt/commit/15621e5f827da088fc3e71f0fd1b0252766d2136))
+* prevent generation of metadata for non enabled target ([0de6626](https://github.com/DanySK/rrmxmx-kt/commit/0de6626d0e038ecbf78f06d54c9dfa88768b0847))
+
 ## [1.1.4](https://github.com/DanySK/rrmxmx-kt/compare/1.1.3...1.1.4) (2023-03-14)
 
 
