@@ -104,10 +104,10 @@ kotlin {
 
         mavenPublication {
             tasks.withType<AbstractPublishToMaven>().configureEach {
-                onlyIf { publication != this }
+                onlyIf { publication != this@mavenPublication }
             }
             tasks.withType<GenerateModuleMetadata>().configureEach {
-                onlyIf { publication.get() != this }
+                onlyIf { publication.get() != this@mavenPublication }
             }
         }
     }
