@@ -64,6 +64,7 @@ jobs:
           echo $REPO_IDS >> $GITHUB_OUTPUT
   build:
     needs:
+      - check-secrets
       - staging-repo
     if: ${{ always() && !contains(needs.staging-repo.result, 'failure') }}
     strategy:
@@ -117,6 +118,7 @@ jobs:
       # Strictly sequential.
       group: release-${{ github.event.number || github.ref }}
     needs:
+      - check-secrets
       - staging-repo
       - build
       - close-staging-repos
