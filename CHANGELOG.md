@@ -1,3 +1,49 @@
+## [1.1.6](https://github.com/DanySK/rrmxmx-kt/compare/1.1.5...1.1.6) (2023-04-18)
+
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v3.4.0 ([ddac297](https://github.com/DanySK/rrmxmx-kt/commit/ddac297c0f2eacb995984ec6ad657f190bf1228a))
+* **deps:** update actions/checkout action to v3.5.0 ([c46b797](https://github.com/DanySK/rrmxmx-kt/commit/c46b797bf52717a2c5a9fd95d59411247b08b738))
+* **deps:** update actions/checkout action to v3.5.1 ([e207de8](https://github.com/DanySK/rrmxmx-kt/commit/e207de860176ad78d32b19a536d1b69e8a11459a))
+* **deps:** update actions/checkout action to v3.5.2 ([42caaaa](https://github.com/DanySK/rrmxmx-kt/commit/42caaaa0d36de092d052b53422810aa2fff31432))
+* **deps:** update danysk/action-checkout action to v0.2.6 ([b580fb1](https://github.com/DanySK/rrmxmx-kt/commit/b580fb12be17ebef99bdcb0c10827ce542cfd60f))
+* **deps:** update danysk/action-checkout action to v0.2.7 ([88bfd92](https://github.com/DanySK/rrmxmx-kt/commit/88bfd92e4db2b3250f529b7efce465c58f427393))
+* **deps:** update danysk/action-checkout action to v0.2.8 ([7d0dceb](https://github.com/DanySK/rrmxmx-kt/commit/7d0dceb8f503f3b2a943fc95e19247de0350e9f7))
+* **deps:** update danysk/action-checkout action to v0.2.9 ([0a7c07f](https://github.com/DanySK/rrmxmx-kt/commit/0a7c07fc09a10ffba076f4556bddae5fe3248d15))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.2.1 ([60e2084](https://github.com/DanySK/rrmxmx-kt/commit/60e20845e38ba0c0d02b10bf86bbc3159b646c78))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.2.1 ([4a8b852](https://github.com/DanySK/rrmxmx-kt/commit/4a8b8524c75870d84e6edbcb8a060cd082186a05))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.2.2 ([52e18c0](https://github.com/DanySK/rrmxmx-kt/commit/52e18c03907b389d783e26705c5075460f545251))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.2.3 ([c11c708](https://github.com/DanySK/rrmxmx-kt/commit/c11c708d071fa462f451c5466ff2fa8a8f9876dc))
+* fix the concurrency issues with the Central repo staging creation ([004b6a3](https://github.com/DanySK/rrmxmx-kt/commit/004b6a3e42d13f26c96c9f8e015e8d6b61c18140))
+* **mergify:** disable auto-rebasing due to Mergifyio/mergify[#5074](https://github.com/DanySK/rrmxmx-kt/issues/5074) ([44e630d](https://github.com/DanySK/rrmxmx-kt/commit/44e630d102fb0ce00e9eaef16fa15ffd8cba33b9))
+
+
+### Dependency updates
+
+* **core-deps:** update dependency org.jetbrains.kotlin.multiplatform to v1.8.20 ([318ec4a](https://github.com/DanySK/rrmxmx-kt/commit/318ec4a24290618bf12c4127ef7a62dc38a95588))
+* **deps:** update dependency gradle to v8.1 ([747661f](https://github.com/DanySK/rrmxmx-kt/commit/747661f3871303b0e98bc789ebdbb8107dbafec8))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.17 ([0902edd](https://github.com/DanySK/rrmxmx-kt/commit/0902edddcda5820932431d2333c9199d61942e31))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.19 ([8882d85](https://github.com/DanySK/rrmxmx-kt/commit/8882d85b5efe050dcbe9055a4918b2ff488c0da9))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.20 ([f513f77](https://github.com/DanySK/rrmxmx-kt/commit/f513f77fbbb86b7cb7c83ba12d542669af39be7d))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.22 ([0504cde](https://github.com/DanySK/rrmxmx-kt/commit/0504cde0d441d1783ea39d30a117fbb02bc67489))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.23 ([fd444ee](https://github.com/DanySK/rrmxmx-kt/commit/fd444ee003e7edf1ea463d0fc2195e76cba6e09c))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.24 ([7c1200f](https://github.com/DanySK/rrmxmx-kt/commit/7c1200fd3c617dd31c0aa0388a95a61bb2a5139c))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.25 ([dcc57d6](https://github.com/DanySK/rrmxmx-kt/commit/dcc57d69ee0d27f9f262b73da826e98ae975fd84))
+* **deps:** update node.js to 18.16 ([aee8b32](https://github.com/DanySK/rrmxmx-kt/commit/aee8b32840c22cbf6cf449c0498ba33fbe4e06cc))
+* **deps:** update plugin com.gradle.enterprise to v3.12.5 ([a1eff74](https://github.com/DanySK/rrmxmx-kt/commit/a1eff74eded55ae5fc4ec7492d95081585221c86))
+* **deps:** update plugin com.gradle.enterprise to v3.12.6 ([3de7ec8](https://github.com/DanySK/rrmxmx-kt/commit/3de7ec899c9c70f48fac822a4503585d570b15fc))
+* **deps:** update plugin com.gradle.enterprise to v3.13 ([8f366da](https://github.com/DanySK/rrmxmx-kt/commit/8f366da537d2a766be617cdf79163b5ad667e046))
+* **deps:** update plugin gitsemver to v1.1.5 ([b016472](https://github.com/DanySK/rrmxmx-kt/commit/b0164720d89ca1e433cf69f7c187c02119dab06c))
+* **deps:** update plugin gitsemver to v1.1.6 ([935ac3a](https://github.com/DanySK/rrmxmx-kt/commit/935ac3ac528a5e639ab650391d3224c10ea00adf))
+* **deps:** update plugin gitsemver to v1.1.7 ([cf287a7](https://github.com/DanySK/rrmxmx-kt/commit/cf287a75ea1e5014cee4479a111892b913219ba6))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v1.1.6 ([b0920b7](https://github.com/DanySK/rrmxmx-kt/commit/b0920b7b27ce798c2fb9a16a3a198ed28bbdd754))
+* **deps:** update plugin publishoncentral to v4 ([d935bfb](https://github.com/DanySK/rrmxmx-kt/commit/d935bfb24209c61c7f5afa016300d6f22964a707))
+* **deps:** update plugin publishoncentral to v4.0.1 ([6cab4a8](https://github.com/DanySK/rrmxmx-kt/commit/6cab4a80cd8d65aab8977c0c54a55d5e72b55928))
+* **deps:** update plugin publishoncentral to v4.1.0 ([e35293a](https://github.com/DanySK/rrmxmx-kt/commit/e35293a3fc9513dbba416eb7611ea70fa62526e9))
+* **deps:** update plugin publishoncentral to v4.1.1 ([965b1a3](https://github.com/DanySK/rrmxmx-kt/commit/965b1a33897b075e684a7a127c5882db73ca94f7))
+* **deps:** update plugin publishoncentral to v5 ([a759994](https://github.com/DanySK/rrmxmx-kt/commit/a7599942f6aff682d8d2671ac6efac8697406306))
+
 ## [1.1.5](https://github.com/DanySK/rrmxmx-kt/compare/1.1.4...1.1.5) (2023-03-15)
 
 
