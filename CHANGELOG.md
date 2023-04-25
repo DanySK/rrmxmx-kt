@@ -1,3 +1,24 @@
+## [1.1.7](https://github.com/DanySK/rrmxmx-kt/compare/1.1.6...1.1.7) (2023-04-25)
+
+
+### Build and continuous integration
+
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.2.4 ([592c677](https://github.com/DanySK/rrmxmx-kt/commit/592c677c3392926862b510e1ccb47ee3b4497361))
+
+
+### Dependency updates
+
+* **core-deps:** update kotlin monorepo to v1.8.21 ([3ee9588](https://github.com/DanySK/rrmxmx-kt/commit/3ee958884865c30b5a835f64472c4917e04b3103))
+* **deps:** update dependency gradle to v8.1.1 ([c6bb766](https://github.com/DanySK/rrmxmx-kt/commit/c6bb766c7ba0c0793fd3276985633ccc69d22db3))
+* **deps:** update kotest to v5.6.1 ([0a74736](https://github.com/DanySK/rrmxmx-kt/commit/0a747364e9688096d0e264b8a2c933f202b6b0b4))
+* **deps:** update plugin gitsemver to v1.1.8 ([154553c](https://github.com/DanySK/rrmxmx-kt/commit/154553cbf442f08f96696efa7825ba4a155363d7))
+* **deps:** update plugin gitsemver to v1.1.9 ([aaaa934](https://github.com/DanySK/rrmxmx-kt/commit/aaaa93427a6e1caf86cf478c029cf87345e4917f))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v1.1.7 ([2a33c2f](https://github.com/DanySK/rrmxmx-kt/commit/2a33c2fec30282007b2efe87dc5567a060c39b83))
+* **deps:** update plugin publishoncentral to v5.0.1 ([0f47d2e](https://github.com/DanySK/rrmxmx-kt/commit/0f47d2eea7bd109615c6ccbddd3dc153c6d547d5))
+* **deps:** update plugin publishoncentral to v5.0.2 ([116cbdf](https://github.com/DanySK/rrmxmx-kt/commit/116cbdf080f2d2e557590c852a12a029fdb72c18))
+* **deps:** update plugin publishoncentral to v5.0.3 ([5ce53fa](https://github.com/DanySK/rrmxmx-kt/commit/5ce53fa45e0ef620b591fd7116849ac3c028973b))
+* **deps:** update plugin publishoncentral to v5.0.4 ([50fa89e](https://github.com/DanySK/rrmxmx-kt/commit/50fa89e8b8949d6c80142c88faf9455c8d7db91e))
+
 ## [1.1.6](https://github.com/DanySK/rrmxmx-kt/compare/1.1.5...1.1.6) (2023-04-18)
 
 
