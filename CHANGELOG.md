@@ -1,3 +1,30 @@
+## [1.1.8](https://github.com/DanySK/rrmxmx-kt/compare/1.1.7...1.1.8) (2023-06-05)
+
+
+### Build and continuous integration
+
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.2.5 ([68b97e2](https://github.com/DanySK/rrmxmx-kt/commit/68b97e2ba0392fa6d40bf30e26ac94763873d059))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.2.6 ([f00eb25](https://github.com/DanySK/rrmxmx-kt/commit/f00eb25bf7a9550d9a908d2e9406fc644c8850fe))
+
+
+### Dependency updates
+
+* **deps:** update dependency io.kotest.multiplatform to v5.6.2 ([123016c](https://github.com/DanySK/rrmxmx-kt/commit/123016cf93b5e19e088618dc53190c333bb96be4))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.26 ([41c0ae0](https://github.com/DanySK/rrmxmx-kt/commit/41c0ae016a38b65d4469ac6867521b4666655bc0))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.27 ([429b102](https://github.com/DanySK/rrmxmx-kt/commit/429b102e4f361a5f47345f418d31f901d91e00a7))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.30 ([0f80280](https://github.com/DanySK/rrmxmx-kt/commit/0f80280b7224f9911695220f73949a9c90465fc4))
+* **deps:** update plugin com.gradle.enterprise to v3.13.1 ([fda86d7](https://github.com/DanySK/rrmxmx-kt/commit/fda86d7752b0070e66b9978861f5b4e0588325cc))
+* **deps:** update plugin com.gradle.enterprise to v3.13.2 ([e3a7440](https://github.com/DanySK/rrmxmx-kt/commit/e3a744091b90ddab97d9596e099666f5f4a5d4f2))
+* **deps:** update plugin com.gradle.enterprise to v3.13.3 ([c0f4b0c](https://github.com/DanySK/rrmxmx-kt/commit/c0f4b0c0bb6ca216caedbdf7904b8482a26fc786))
+* **deps:** update plugin npm-publish to v3.3.0 ([99b6b7c](https://github.com/DanySK/rrmxmx-kt/commit/99b6b7cad3669e49c745872c014a217f1b781850))
+* **deps:** update plugin npm-publish to v3.3.1 ([bf691b3](https://github.com/DanySK/rrmxmx-kt/commit/bf691b361d123bf7eb1b8178a6526857c42943b6))
+* **deps:** update plugin publishoncentral to v5.0.5 ([104c8cf](https://github.com/DanySK/rrmxmx-kt/commit/104c8cff13d31039b4566baa4e344828e356625f))
+
+
+### Documentation
+
+* **deps:** update plugin dokka to v1.8.20 ([d71e623](https://github.com/DanySK/rrmxmx-kt/commit/d71e62316eb4abbb0101dca2d07d30b7578ce840))
+
 ## [1.1.7](https://github.com/DanySK/rrmxmx-kt/compare/1.1.6...1.1.7) (2023-04-25)
 
 
