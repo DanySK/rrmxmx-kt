@@ -1,3 +1,12 @@
+## [1.1.9](https://github.com/DanySK/rrmxmx-kt/compare/1.1.8...1.1.9) (2023-06-07)
+
+
+### Dependency updates
+
+* **core-deps:** update kotlin monorepo to v1.8.22 ([cf66b5f](https://github.com/DanySK/rrmxmx-kt/commit/cf66b5fac3d88d4df9a0684712ea788e5acc877c))
+* **deps:** update plugin gitsemver to v1.1.10 ([2508549](https://github.com/DanySK/rrmxmx-kt/commit/2508549cfb9ec6f5164240d8d1d33a01fe4d7308))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v1.1.8 ([eff9c94](https://github.com/DanySK/rrmxmx-kt/commit/eff9c94b2e60c0118a663acb9635df7bb66c9b03))
+
 ## [1.1.8](https://github.com/DanySK/rrmxmx-kt/compare/1.1.7...1.1.8) (2023-06-05)
 
 
