@@ -1,3 +1,57 @@
+## [1.1.10](https://github.com/DanySK/rrmxmx-kt/compare/1.1.9...1.1.10) (2023-09-01)
+
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v3.5.3 ([6ae3aa7](https://github.com/DanySK/rrmxmx-kt/commit/6ae3aa7e59946f9038ade2901759c59381809f17))
+* **deps:** update actions/checkout action to v3.6.0 ([0f486f3](https://github.com/DanySK/rrmxmx-kt/commit/0f486f30bd7c5d127af77f717c5f50103d57c36d))
+* **deps:** update actions/setup-node action to v3.7.0 ([20724ef](https://github.com/DanySK/rrmxmx-kt/commit/20724ef0c90b33e68b832acac924c61f5dbe92a1))
+* **deps:** update actions/setup-node action to v3.8.0 ([f7e47ee](https://github.com/DanySK/rrmxmx-kt/commit/f7e47eef88c0fdaded42686e977d49e5e9239114))
+* **deps:** update actions/setup-node action to v3.8.1 ([b418d63](https://github.com/DanySK/rrmxmx-kt/commit/b418d63fe56f0743c071b9786e1117467f290d4b))
+* **deps:** update danysk/action-checkout action to v0.2.10 ([63beb0f](https://github.com/DanySK/rrmxmx-kt/commit/63beb0f5d75db8423ac26f0a505b288b0a6c7e5d))
+* **deps:** update danysk/action-checkout action to v0.2.11 ([2c561c6](https://github.com/DanySK/rrmxmx-kt/commit/2c561c68dca8bb1407dec5526c981425a5632c66))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.2.7 ([0c0a287](https://github.com/DanySK/rrmxmx-kt/commit/0c0a2879e8df107fc91145c63469f877869e9c28))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.2.8 ([48c03b6](https://github.com/DanySK/rrmxmx-kt/commit/48c03b6fc5ee3e598673b5a870b6d07aafd32ade))
+
+
+### Documentation
+
+* **deps:** update plugin dokka to v1.9.0 ([957718f](https://github.com/DanySK/rrmxmx-kt/commit/957718fa17099ae1823bbfccae16d3d0657d06ed))
+
+
+### Dependency updates
+
+* **deps:** update dependency gradle to v8.2 ([e0e1d29](https://github.com/DanySK/rrmxmx-kt/commit/e0e1d298bc7f768adf4651cd9fbe5a383a89abc2))
+* **deps:** update dependency gradle to v8.2.1 ([1677da4](https://github.com/DanySK/rrmxmx-kt/commit/1677da4686ce16db82cdcaf88f44a0fcca0a4211))
+* **deps:** update dependency gradle to v8.3 ([ad645d1](https://github.com/DanySK/rrmxmx-kt/commit/ad645d1c73807b71a63a2132a892afeaf4652112))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.32 ([2002175](https://github.com/DanySK/rrmxmx-kt/commit/2002175925755645083dde245f9b0c94da73805e))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.33 ([cf9e5a2](https://github.com/DanySK/rrmxmx-kt/commit/cf9e5a204da90c6c5d57db33c16af72534228e6b))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.35 ([57a804d](https://github.com/DanySK/rrmxmx-kt/commit/57a804dde35dbea8cd7cf174ced89f2433a8fb3e))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.37 ([29c5c7f](https://github.com/DanySK/rrmxmx-kt/commit/29c5c7fdf4771a8f4d40480a963b4f44c18a2714))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.38 ([bd8fe57](https://github.com/DanySK/rrmxmx-kt/commit/bd8fe57bc156531f2b9b6a26ecf7e008797f43fc))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.39 ([bf01902](https://github.com/DanySK/rrmxmx-kt/commit/bf019024c1c7248a17f3a5e35f94900d9f425d1e))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.40 ([e8557c6](https://github.com/DanySK/rrmxmx-kt/commit/e8557c6171729f65d53541766b0186aded0b7f7d))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.41 ([a4df04b](https://github.com/DanySK/rrmxmx-kt/commit/a4df04bc1e7f6e4fcb6f5fa4b3fed3dbd8506c27))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.42 ([e7be876](https://github.com/DanySK/rrmxmx-kt/commit/e7be87601e42adfd7ccd3c5d35edb1111c08fe4a))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.43 ([cf0dd14](https://github.com/DanySK/rrmxmx-kt/commit/cf0dd14365cf46f095d1d0000b3a68cfcddfa489))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.44 ([ee3c6ad](https://github.com/DanySK/rrmxmx-kt/commit/ee3c6ada1693ea6b13013456ad5d993a2c763b56))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.46 ([5f9e2d1](https://github.com/DanySK/rrmxmx-kt/commit/5f9e2d162bbd43f2ad62678f7513a1145a995689))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.47 ([58b64ec](https://github.com/DanySK/rrmxmx-kt/commit/58b64ecef677ccd225c70bac7cc62851d4acde44))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.50 ([8e0e815](https://github.com/DanySK/rrmxmx-kt/commit/8e0e8155ab7d27dd98496b692ee29f5b7b08cf09))
+* **deps:** update node.js to 18.17 ([1587a10](https://github.com/DanySK/rrmxmx-kt/commit/1587a10f329b59bd6f108c87e26aa5be39bd67cf))
+* **deps:** update plugin com.gradle.enterprise to v3.13.4 ([61286a5](https://github.com/DanySK/rrmxmx-kt/commit/61286a5883be489198a0e0f32f058e15ae95e315))
+* **deps:** update plugin com.gradle.enterprise to v3.14 ([2a88c33](https://github.com/DanySK/rrmxmx-kt/commit/2a88c33b70cfe2b50ff4955576fc5801ee89986b))
+* **deps:** update plugin com.gradle.enterprise to v3.14.1 ([bcf73d4](https://github.com/DanySK/rrmxmx-kt/commit/bcf73d4e78d61cf865055cc0052e85dcb4fef6d9))
+* **deps:** update plugin npm-publish to v3.4.0 ([4a95cd0](https://github.com/DanySK/rrmxmx-kt/commit/4a95cd07c29aba64981681df4889872db03bec45))
+* **deps:** update plugin npm-publish to v3.4.1 ([f9c370c](https://github.com/DanySK/rrmxmx-kt/commit/f9c370c318721d8cd5aeaff337de8be78c0fb819))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v1.1.10 ([16d401f](https://github.com/DanySK/rrmxmx-kt/commit/16d401f3d5fe55035e428d16a2749b57397d8e10))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v1.1.9 ([b6f49c7](https://github.com/DanySK/rrmxmx-kt/commit/b6f49c70f615328e37d3bb81a33fbc468acb3d9c))
+* **deps:** update plugin publishoncentral to v5.0.10 ([16164dc](https://github.com/DanySK/rrmxmx-kt/commit/16164dcbcfa7e70c4fb5beb5692222f83f4022e4))
+* **deps:** update plugin publishoncentral to v5.0.6 ([576a82f](https://github.com/DanySK/rrmxmx-kt/commit/576a82ff749935f6d9a9cbd8bbed5e94658b433e))
+* **deps:** update plugin publishoncentral to v5.0.7 ([245912e](https://github.com/DanySK/rrmxmx-kt/commit/245912e07ff309a51d5009524b351f64060a001c))
+* **deps:** update plugin publishoncentral to v5.0.8 ([10f361e](https://github.com/DanySK/rrmxmx-kt/commit/10f361eb08f809a91399fa5ea00690316b56db6c))
+* **deps:** update plugin publishoncentral to v5.0.9 ([bb91917](https://github.com/DanySK/rrmxmx-kt/commit/bb91917a7d5c54b952bfe15bf9769225398a964f))
+
 ## [1.1.9](https://github.com/DanySK/rrmxmx-kt/compare/1.1.8...1.1.9) (2023-06-07)
 
 
