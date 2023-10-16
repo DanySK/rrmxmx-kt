@@ -1,3 +1,43 @@
+## [1.1.11](https://github.com/DanySK/rrmxmx-kt/compare/1.1.10...1.1.11) (2023-10-16)
+
+
+### Dependency updates
+
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.51 ([9212fe6](https://github.com/DanySK/rrmxmx-kt/commit/9212fe674813afbb17e51eb00c63796c0545a8fd))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.53 ([f399602](https://github.com/DanySK/rrmxmx-kt/commit/f3996028858340415024e83b5e51761392bf101c))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.54 ([ca1117b](https://github.com/DanySK/rrmxmx-kt/commit/ca1117b2d5ef3e7259ec9a41137e5f78dc445105))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.55 ([64cb163](https://github.com/DanySK/rrmxmx-kt/commit/64cb163e6111c171c6a733e03d295b9333eeea93))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.56 ([31df525](https://github.com/DanySK/rrmxmx-kt/commit/31df525bec8050feb3e00cdcdda673d176a3f8a2))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.60 ([7061af3](https://github.com/DanySK/rrmxmx-kt/commit/7061af3062df18342c70f36524be25652f031d3d))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.61 ([ef2b7f7](https://github.com/DanySK/rrmxmx-kt/commit/ef2b7f7961712c82b3c1d17e58bcc611bfec4225))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.62 ([35e6c8f](https://github.com/DanySK/rrmxmx-kt/commit/35e6c8f07c5d3a13309ebc097d6819548eee89cf))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.63 ([075110d](https://github.com/DanySK/rrmxmx-kt/commit/075110de54b0ac01fbd9efaa05e0ad85c8f73f84))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.64 ([7c1861e](https://github.com/DanySK/rrmxmx-kt/commit/7c1861ea4ae30fbba42d17ac7af7913561a7e194))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.66 ([601e775](https://github.com/DanySK/rrmxmx-kt/commit/601e775db5a8c857e3aa7e431760b8d8d7456141))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.67 ([ec3fc53](https://github.com/DanySK/rrmxmx-kt/commit/ec3fc53a5a125e2e1a9913508d02ecf33b260e96))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.68 ([284b4ff](https://github.com/DanySK/rrmxmx-kt/commit/284b4ff23f30d07e6381cb017333563fbc2723cd))
+* **deps:** update kotest to v5.7.0 ([ae6a658](https://github.com/DanySK/rrmxmx-kt/commit/ae6a658f566f77f837bad5fd7fc062b690464d77))
+* **deps:** update kotest to v5.7.1 ([89fdca2](https://github.com/DanySK/rrmxmx-kt/commit/89fdca25bfe2137d23c67dceec494b2ebdaf3cf6))
+* **deps:** update kotest to v5.7.2 ([407873b](https://github.com/DanySK/rrmxmx-kt/commit/407873b6547ae0e6bca401ab4fe058da017a2823))
+* **deps:** update node.js to 18.18 ([c32535d](https://github.com/DanySK/rrmxmx-kt/commit/c32535d4cb86b57a1d87c65def76b0b9c0a1c910))
+* **deps:** update plugin com.gradle.enterprise to v3.15 ([5050ef6](https://github.com/DanySK/rrmxmx-kt/commit/5050ef625a67d128db0f2827c98eab3b12e50cb5))
+* **deps:** update plugin com.gradle.enterprise to v3.15.1 ([38710b6](https://github.com/DanySK/rrmxmx-kt/commit/38710b69de1156745bb593c43d29579d73b0ed48))
+
+
+### Documentation
+
+* **deps:** update plugin dokka to v1.9.10 ([c2f8892](https://github.com/DanySK/rrmxmx-kt/commit/c2f8892e0f3b7d5d44a9db69459108e812cfe149))
+
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v4 ([749ba88](https://github.com/DanySK/rrmxmx-kt/commit/749ba883ee89199194e44e2f9735ce94525755f6))
+* **deps:** update actions/checkout action to v4.1.0 ([63f3098](https://github.com/DanySK/rrmxmx-kt/commit/63f3098fcf5a0ccdc970651c150f07fe2b41f904))
+* **deps:** update danysk/action-checkout action to v0.2.12 ([3101cb6](https://github.com/DanySK/rrmxmx-kt/commit/3101cb65a64afdfe6af55f345ac7830e01fb4a08))
+* **deps:** update danysk/action-checkout action to v0.2.13 ([cb4a917](https://github.com/DanySK/rrmxmx-kt/commit/cb4a9179a98d6a81988330e56e059d5e99dcd7b5))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.2.10 ([e3030f7](https://github.com/DanySK/rrmxmx-kt/commit/e3030f79b0667966b3cea08f593834cc9a2b4513))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.2.9 ([544d6b2](https://github.com/DanySK/rrmxmx-kt/commit/544d6b2b09d0c3347a1a16a2ee490e444ec3f81c))
+
 ## [1.1.10](https://github.com/DanySK/rrmxmx-kt/compare/1.1.9...1.1.10) (2023-09-01)
 
 
