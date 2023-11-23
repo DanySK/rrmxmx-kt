@@ -1,3 +1,12 @@
+## [1.1.13](https://github.com/DanySK/rrmxmx-kt/compare/1.1.12...1.1.13) (2023-11-23)
+
+
+### Dependency updates
+
+* **core-deps:** update kotlin to v1.9.21 and Gradle to 8.4 ([#209](https://github.com/DanySK/rrmxmx-kt/issues/209)) ([b9a7e4e](https://github.com/DanySK/rrmxmx-kt/commit/b9a7e4e06c27bef45fe5d62ba6b8e615aec4cb4d))
+* **deps:** update dependency gradle to v8.4 ([b52f9a1](https://github.com/DanySK/rrmxmx-kt/commit/b52f9a116771733adbae5619aeeaa0aa130912e4))
+* **deps:** update plugin gitsemver to v2.0.3 ([91bb597](https://github.com/DanySK/rrmxmx-kt/commit/91bb5978300e3784c02c6e6fb306c70849b0be5c))
+
 ## [1.1.12](https://github.com/DanySK/rrmxmx-kt/compare/1.1.11...1.1.12) (2023-11-23)
 
 
