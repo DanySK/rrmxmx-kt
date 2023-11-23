@@ -1,3 +1,43 @@
+## [1.1.12](https://github.com/DanySK/rrmxmx-kt/compare/1.1.11...1.1.12) (2023-11-23)
+
+
+### Dependency updates
+
+* **core-deps:** update kotlin monorepo to v1.9.21 ([f407177](https://github.com/DanySK/rrmxmx-kt/commit/f40717705e85dd60bae951819beaa231e757e899))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.69 ([f47127c](https://github.com/DanySK/rrmxmx-kt/commit/f47127cde8b99a775ecf14a8f7999c54b9b98cff))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.70 ([e23dc74](https://github.com/DanySK/rrmxmx-kt/commit/e23dc74a9f1497e56d3e51cf10e63f71f7b72d10))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.71 ([ce1fab8](https://github.com/DanySK/rrmxmx-kt/commit/ce1fab87124f26c1868bad716f0f11d414a809e3))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.72 ([19a4758](https://github.com/DanySK/rrmxmx-kt/commit/19a47586cac5a141bde082d26175e407fc19c827))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.73 ([34a4ee2](https://github.com/DanySK/rrmxmx-kt/commit/34a4ee2e76f2b63b448a3822584e9b3962ae1300))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.75 ([3d0aa1a](https://github.com/DanySK/rrmxmx-kt/commit/3d0aa1af3f6b545183fde4451a80db8d7f5afffe))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.76 ([8899e4a](https://github.com/DanySK/rrmxmx-kt/commit/8899e4aaeb42b82ec652c75ff46491a740d2d546))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.77 ([5493214](https://github.com/DanySK/rrmxmx-kt/commit/5493214a994372dd9af49b819e596905920cf7c9))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.78 ([decdebf](https://github.com/DanySK/rrmxmx-kt/commit/decdebfb11292d9e6cd4324960da28f57dea8b5c))
+* **deps:** update kotest to v5.8.0 ([45d8b5c](https://github.com/DanySK/rrmxmx-kt/commit/45d8b5cff0084de798b8c6d0d8b1e03f95b79eec))
+* **deps:** update node.js to 20.10 ([21e3cab](https://github.com/DanySK/rrmxmx-kt/commit/21e3cabfad2fba7bde1b3a6ca406b9f55080c9c6))
+* **deps:** update node.js to 20.9 ([a807375](https://github.com/DanySK/rrmxmx-kt/commit/a8073756e569f488b48a198f8d6350ce96d56f16))
+* **deps:** update node.js to v20 ([840d04a](https://github.com/DanySK/rrmxmx-kt/commit/840d04ac84e94d4cbe8ab1059b85e3f31dbba509))
+* **deps:** update plugin gitsemver to v1.1.11 ([c952c0e](https://github.com/DanySK/rrmxmx-kt/commit/c952c0e6f9609b71d4a97eacc76dc3f676927233))
+* **deps:** update plugin gitsemver to v1.1.14 ([3f2388e](https://github.com/DanySK/rrmxmx-kt/commit/3f2388e9c48779cff0008119d3bba6a026c645b5))
+* **deps:** update plugin gitsemver to v1.1.15 ([01cf417](https://github.com/DanySK/rrmxmx-kt/commit/01cf417cfc19415fb5ca4db7fbbf4cd914ab5d9c))
+* **deps:** update plugin gitsemver to v2 ([d09ad7e](https://github.com/DanySK/rrmxmx-kt/commit/d09ad7ec89504d6ccc51936e6d04f26171437108))
+* **deps:** update plugin gitsemver to v2.0.1 ([7db7e42](https://github.com/DanySK/rrmxmx-kt/commit/7db7e42fd37cc72f9709f5829e0118eaeb00a250))
+* **deps:** update plugin gitsemver to v2.0.2 ([a4a6c48](https://github.com/DanySK/rrmxmx-kt/commit/a4a6c48aed5b37b5b057c827634e3fbdeb5092dc))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v1.1.11 ([a515f9b](https://github.com/DanySK/rrmxmx-kt/commit/a515f9bddecc1138826b467a1b5bbb5f5584ad5f))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v1.1.13 ([291f246](https://github.com/DanySK/rrmxmx-kt/commit/291f246f61a26348d3d74d63ff7b1921836d1f45))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v1.1.14 ([c5c0d6d](https://github.com/DanySK/rrmxmx-kt/commit/c5c0d6d083aad5f48dba5db2d061cfebdd3f7e57))
+* **deps:** update plugin publishoncentral to v5.0.20 ([801f60e](https://github.com/DanySK/rrmxmx-kt/commit/801f60e9e78a5374f389b0e70cef81ab47850386))
+
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v4.1.1 ([b5eee32](https://github.com/DanySK/rrmxmx-kt/commit/b5eee32bbbfa45df8eb6b81e4a5c9ace121da2cf))
+* **deps:** update actions/setup-node action to v3.8.2 ([8273cd9](https://github.com/DanySK/rrmxmx-kt/commit/8273cd96f52bff67916082ffdce8552003b19327))
+* **deps:** update actions/setup-node action to v4 ([533edac](https://github.com/DanySK/rrmxmx-kt/commit/533edac5f369c0d23c165fd74d1eeefed0f2261e))
+* **deps:** update danysk/action-checkout action to v0.2.14 ([d6195ae](https://github.com/DanySK/rrmxmx-kt/commit/d6195aec30b0eb809f9ac941b609f371f7fb5062))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.2.11 ([fef8dbb](https://github.com/DanySK/rrmxmx-kt/commit/fef8dbbabc5a300ddea559408031e2d8f3291df0))
+* disable the fail-fast mode on matrix jobs ([24750eb](https://github.com/DanySK/rrmxmx-kt/commit/24750ebb91b68a5f73149fd6b5a8d26cecde143f))
+
 ## [1.1.11](https://github.com/DanySK/rrmxmx-kt/compare/1.1.10...1.1.11) (2023-10-16)
 
 
