@@ -67,21 +67,36 @@ kotlin {
         }
     }
 
+    applyDefaultHierarchyTemplate()
+    /*
+     * Linux 64
+     */
     linuxX64(nativeSetup)
     linuxArm64(nativeSetup)
-
+    /*
+     * Win 64
+     */
     mingwX64(nativeSetup)
-
+    /*
+     * Apple OSs
+     */
     macosX64(nativeSetup)
     macosArm64(nativeSetup)
-    ios(nativeSetup)
-    watchos(nativeSetup)
-    tvos(nativeSetup)
+    iosArm64(nativeSetup)
+    iosX64(nativeSetup)
+    iosSimulatorArm64(nativeSetup)
+    watchosArm32(nativeSetup)
+    watchosX64(nativeSetup)
+    watchosSimulatorArm64(nativeSetup)
+    tvosArm64(nativeSetup)
+    tvosX64(nativeSetup)
+    tvosSimulatorArm64(nativeSetup)
 
     targets.all {
         compilations.all {
             kotlinOptions {
                 allWarningsAsErrors = true
+                freeCompilerArgs += listOf("-Xexpect-actual-classes")
             }
         }
     }
@@ -134,7 +149,7 @@ signing {
 publishOnCentral {
     projectLongName.set("rrmxmx for Kotlin-MP")
     projectDescription.set("A Kotlin implementation of the rrmxmx hash function")
-    repository("https://maven.pkg.github.com/danysk/${rootProject.name}".toLowerCase()) {
+    repository("https://maven.pkg.github.com/danysk/${rootProject.name}".lowercase()) {
         user.set("DanySK")
         password.set(System.getenv("GITHUB_TOKEN"))
     }
