@@ -77,5 +77,5 @@ class Test : StringSpec(
                 Rrmxmx.hash(base.toLong()) shouldBe result.toLong()
             }
         }
-    }
+    },
 )
