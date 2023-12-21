@@ -1,3 +1,39 @@
+## [1.1.14](https://github.com/DanySK/rrmxmx-kt/compare/1.1.13...1.1.14) (2023-12-21)
+
+
+### Dependency updates
+
+* **core-deps:** update kotlin monorepo to v1.9.22 ([5051414](https://github.com/DanySK/rrmxmx-kt/commit/5051414e506601650b65ce16d4517816e5f3e651))
+* **deps:** update dependency gradle to v8.5 ([9793507](https://github.com/DanySK/rrmxmx-kt/commit/97935072f3120a3e9db1975398329c6bdb11030a))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.79 ([ab13194](https://github.com/DanySK/rrmxmx-kt/commit/ab1319406e7b943fad3f9c8cc0f3498ec0b227bb))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.80 ([033bbb3](https://github.com/DanySK/rrmxmx-kt/commit/033bbb3dfd5ee660e16ac069be00f86a3effd025))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.81 ([d2a991b](https://github.com/DanySK/rrmxmx-kt/commit/d2a991b2836cc06877a374cd063cd0de24caea2b))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.82 ([f33a728](https://github.com/DanySK/rrmxmx-kt/commit/f33a728911586da76c642c1d72958484293c2456))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.83 ([34b8404](https://github.com/DanySK/rrmxmx-kt/commit/34b8404788a7275b632cb90b56be027775052aa1))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.84 ([bc870cc](https://github.com/DanySK/rrmxmx-kt/commit/bc870cc2cd16721ba337dbbe5ffd5f28ab694eb8))
+* **deps:** update plugin com.gradle.enterprise to v3.16 ([0353acb](https://github.com/DanySK/rrmxmx-kt/commit/0353acbb84ed079ea7912a241c00350ed5f0a901))
+* **deps:** update plugin com.gradle.enterprise to v3.16.1 ([4c71202](https://github.com/DanySK/rrmxmx-kt/commit/4c712027dcff836167f198c9ec40427180129cc5))
+* **deps:** update plugin gitsemver to v2.0.4 ([53a1046](https://github.com/DanySK/rrmxmx-kt/commit/53a104600acf9077fa0f95c8d2e1b6c5ccf37132))
+* **deps:** update plugin kotlin-qa to v0.54.1 ([8cee34e](https://github.com/DanySK/rrmxmx-kt/commit/8cee34e1cb5cc89a9f3d68f6c7e76f08e6ab9167))
+* **deps:** update plugin kotlin-qa to v0.55.1 ([19eb9a6](https://github.com/DanySK/rrmxmx-kt/commit/19eb9a615965e560f1d4510c11e92c614fa0fbd1))
+* **deps:** update plugin kotlin-qa to v0.55.2 ([a99c46d](https://github.com/DanySK/rrmxmx-kt/commit/a99c46d128b88ab916190005d99c379057caede3))
+* **deps:** update plugin kotlin-qa to v0.56.0 ([cd5ec26](https://github.com/DanySK/rrmxmx-kt/commit/cd5ec26456ce636bf83cc0b8e91bd058110d95dc))
+* **deps:** update plugin kotlin-qa to v0.57.0 ([1fddfee](https://github.com/DanySK/rrmxmx-kt/commit/1fddfeeeb5fb99b369e93cea76637a5b5666cf17))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v1.1.15 ([d75d150](https://github.com/DanySK/rrmxmx-kt/commit/d75d1502073aeef512ad58d1bfbcaf1de355e38f))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v1.1.16 ([d174f04](https://github.com/DanySK/rrmxmx-kt/commit/d174f045fd3cad5c19ff39c428d0b59b406c9edc))
+
+
+### Build and continuous integration
+
+* **deps:** update actions/setup-node action to v4.0.1 ([92d7398](https://github.com/DanySK/rrmxmx-kt/commit/92d73981d4bd7afda60461b509e8a35f30579854))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.2.12 ([f99615c](https://github.com/DanySK/rrmxmx-kt/commit/f99615c1359f10b52649ada471bbd55dd7b4c194))
+* disable unused editorconfig rule ([ab59064](https://github.com/DanySK/rrmxmx-kt/commit/ab59064b387c112f82f04897870dd2bf778812a4))
+
+
+### Style improvements
+
+* add missing trailing commas ([3b09e23](https://github.com/DanySK/rrmxmx-kt/commit/3b09e231251c268919d97765ba5310d910a8a7c3))
+
 ## [1.1.13](https://github.com/DanySK/rrmxmx-kt/compare/1.1.12...1.1.13) (2023-11-23)
 
 
