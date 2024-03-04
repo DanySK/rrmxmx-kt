@@ -1,3 +1,56 @@
+## [1.1.15](https://github.com/DanySK/rrmxmx-kt/compare/1.1.14...1.1.15) (2024-03-04)
+
+
+### Dependency updates
+
+* **deps:** update dependency gradle to v8.6 ([775e2b4](https://github.com/DanySK/rrmxmx-kt/commit/775e2b43b5d421dd8a93f7d8e217881619127c65))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.85 ([7b16ec8](https://github.com/DanySK/rrmxmx-kt/commit/7b16ec8d42f8301c527a8a8795d740700cd512b0))
+* **deps:** update node.js to 20.11 ([44a8910](https://github.com/DanySK/rrmxmx-kt/commit/44a891084c5279eb13e9053666da8330f8d5f33f))
+* **deps:** update plugin com.gradle.enterprise to v3.16.2 ([eef84a1](https://github.com/DanySK/rrmxmx-kt/commit/eef84a14ab1c9891a1cd245f23a0e8171fc052f7))
+* **deps:** update plugin gitsemver to v2.0.5 ([83e26a4](https://github.com/DanySK/rrmxmx-kt/commit/83e26a4fd0757dd7db664633a4be994b9ae9d88b))
+* **deps:** update plugin gitsemver to v3 ([e23f73b](https://github.com/DanySK/rrmxmx-kt/commit/e23f73b11bb949e0d55401fbb99ac615d8360f05))
+* **deps:** update plugin gitsemver to v3.1.0 ([bc37b54](https://github.com/DanySK/rrmxmx-kt/commit/bc37b5408284399b2194caf984f6696a97075252))
+* **deps:** update plugin gitsemver to v3.1.1 ([1ca01da](https://github.com/DanySK/rrmxmx-kt/commit/1ca01da3ab57986f22060b25307f9c34c4d118a4))
+* **deps:** update plugin gitsemver to v3.1.2 ([3e7a974](https://github.com/DanySK/rrmxmx-kt/commit/3e7a9740866b0024b233750e6b44d1e5f5c21fc9))
+* **deps:** update plugin kotlin-qa to v0.57.1 ([cbedadb](https://github.com/DanySK/rrmxmx-kt/commit/cbedadb6b7acd94620775a710f1c2a1da33fc96b))
+* **deps:** update plugin kotlin-qa to v0.58.0 ([e0aa30e](https://github.com/DanySK/rrmxmx-kt/commit/e0aa30e5d3ddaee20a199dcfaba10d9fd13a771b))
+* **deps:** update plugin kotlin-qa to v0.59.0 ([d9dc270](https://github.com/DanySK/rrmxmx-kt/commit/d9dc2709d2fc5398512c0cf55ca9507d5dfbd385))
+* **deps:** update plugin kotlin-qa to v0.59.1 ([c675ae6](https://github.com/DanySK/rrmxmx-kt/commit/c675ae68199f941884c36f1282e00bd9435c494c))
+* **deps:** update plugin kotlin-qa to v0.60.0 ([94fdeca](https://github.com/DanySK/rrmxmx-kt/commit/94fdeca6584dea5a46189e2a47acd82bb1bf72b2))
+* **deps:** update plugin kotlin-qa to v0.60.1 ([44713d0](https://github.com/DanySK/rrmxmx-kt/commit/44713d04cce3e467470fa903b2bd727224eda8b5))
+* **deps:** update plugin kotlin-qa to v0.60.2 ([0b4bf9a](https://github.com/DanySK/rrmxmx-kt/commit/0b4bf9ab17fb211efc1e5d2d781572efbb32dc17))
+* **deps:** update plugin npm-publish to v3.4.2 ([6243e3b](https://github.com/DanySK/rrmxmx-kt/commit/6243e3bb88e9720718d387e780515a278b4a789b))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v1.1.17 ([59a7110](https://github.com/DanySK/rrmxmx-kt/commit/59a7110895b9eaa12c9fd6d4046f688563ea50bf))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v2 ([e6dc2a8](https://github.com/DanySK/rrmxmx-kt/commit/e6dc2a860b65c931b59e40c9d030fe9034d366b6))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v2.0.1 ([ae4973c](https://github.com/DanySK/rrmxmx-kt/commit/ae4973c38367d5ac2add74a7223056b4a2b84690))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v2.0.2 ([7ffe7e1](https://github.com/DanySK/rrmxmx-kt/commit/7ffe7e1224bdd8660967bc7bbfaa13fa0a9eb934))
+* **deps:** update plugin publishoncentral to v5.0.22 ([6a08084](https://github.com/DanySK/rrmxmx-kt/commit/6a080840b2e3248f4ce655edd763ecbbf6c19ebb))
+* **deps:** update plugin publishoncentral to v5.0.23 ([684e998](https://github.com/DanySK/rrmxmx-kt/commit/684e9986bc6d682a4908ac8609f6ff3b80bec706))
+* **deps:** update plugin publishoncentral to v5.0.24 ([a6efd87](https://github.com/DanySK/rrmxmx-kt/commit/a6efd87846c2f646bed43c179644bb646cdeef42))
+
+
+### Documentation
+
+* **deps:** update plugin dokka to v1.9.20 ([18420f4](https://github.com/DanySK/rrmxmx-kt/commit/18420f43428a31b5e3d9778a01b1f22980742e47))
+
+
+### Build and continuous integration
+
+* **deps:** update actions/setup-node action to v4.0.2 ([ef3a94e](https://github.com/DanySK/rrmxmx-kt/commit/ef3a94e755bf0dfd3be3c2472c181b447c860d2a))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.2.13 ([5e905bd](https://github.com/DanySK/rrmxmx-kt/commit/5e905bd7cc2dd59514bee43e1a8f8338e52da820))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.2.14 ([db2a373](https://github.com/DanySK/rrmxmx-kt/commit/db2a373b2fc7dd7d300ea09483ffac08d8199bd1))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.2.15 ([5b18d20](https://github.com/DanySK/rrmxmx-kt/commit/5b18d200ae3420c99b66e61f18290ea7acdca472))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.2.16 ([4de7f45](https://github.com/DanySK/rrmxmx-kt/commit/4de7f45c20d3b03ce4b30ea42647376b73d1b31d))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.2.17 ([5754331](https://github.com/DanySK/rrmxmx-kt/commit/57543311f36d2f4f6193cecd6994d20be9db7f0f))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.2.18 ([edd6d85](https://github.com/DanySK/rrmxmx-kt/commit/edd6d85e1ec4569634461a632a9431eda5db9228))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.2.19 ([acecfdf](https://github.com/DanySK/rrmxmx-kt/commit/acecfdf25a71389840fb40a31ee2a87f8e4952b5))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.2.20 ([479849f](https://github.com/DanySK/rrmxmx-kt/commit/479849f178b744b08e60f5bc0ca0c25ddeb24946))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.4.0 ([cc09a7b](https://github.com/DanySK/rrmxmx-kt/commit/cc09a7b5bd2bafbcf5ebed3290cecb4b11bba0db))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.4.1 ([1bc8337](https://github.com/DanySK/rrmxmx-kt/commit/1bc8337878c830f73b903dec71ccefa242e3c125))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.4.2 ([447f8f6](https://github.com/DanySK/rrmxmx-kt/commit/447f8f66e39b98ad700d8358b97459868a9c89bd))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.4.3 ([abaae97](https://github.com/DanySK/rrmxmx-kt/commit/abaae9710db30d1a300230c2bfbcd375a2962c8f))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.4.6 ([8e2f54d](https://github.com/DanySK/rrmxmx-kt/commit/8e2f54d3315a5492e8164add70dbc47e34cca18c))
+
 ## [1.1.14](https://github.com/DanySK/rrmxmx-kt/compare/1.1.13...1.1.14) (2023-12-21)
 
 
