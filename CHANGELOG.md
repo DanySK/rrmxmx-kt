@@ -1,3 +1,10 @@
+## [1.1.16](https://github.com/DanySK/rrmxmx-kt/compare/1.1.15...1.1.16) (2024-03-07)
+
+
+### Dependency updates
+
+* **core-deps:** update kotlin monorepo to v1.9.23 ([c9d2335](https://github.com/DanySK/rrmxmx-kt/commit/c9d2335e6799af8697774145548bf407cdf43f0e))
+
 ## [1.1.15](https://github.com/DanySK/rrmxmx-kt/compare/1.1.14...1.1.15) (2024-03-04)
 
 
