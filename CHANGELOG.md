@@ -1,3 +1,50 @@
+## [1.1.17](https://github.com/DanySK/rrmxmx-kt/compare/1.1.16...1.1.17) (2024-05-07)
+
+
+### Dependency updates
+
+* **core-deps:** update kotlin monorepo to v1.9.24 ([3785a45](https://github.com/DanySK/rrmxmx-kt/commit/3785a4532decfc953e2293360b24a060bb088e73))
+* **deps:** update dependency gradle to v8.7 ([92c0e90](https://github.com/DanySK/rrmxmx-kt/commit/92c0e90052e7f75c2f59c3b644803bbf0cdeb2be))
+* **deps:** update kotest to v5.8.1 ([059af24](https://github.com/DanySK/rrmxmx-kt/commit/059af2480d54406c7a92b9a4940da8b3cf6235ef))
+* **deps:** update node.js to 20.12 ([4013330](https://github.com/DanySK/rrmxmx-kt/commit/4013330761e858d3e88ebb0c19101f3a45d2fd19))
+* **deps:** update plugin com.gradle.enterprise to v3.17 ([cc0f9f7](https://github.com/DanySK/rrmxmx-kt/commit/cc0f9f7eb11118fb6381742aad99a746bc142f1c))
+* **deps:** update plugin com.gradle.enterprise to v3.17.1 ([cec89fc](https://github.com/DanySK/rrmxmx-kt/commit/cec89fcb4295838f55ed5728a42d98a14fa037ff))
+* **deps:** update plugin com.gradle.enterprise to v3.17.2 ([e9098b9](https://github.com/DanySK/rrmxmx-kt/commit/e9098b9bb03535f093d26c7e0f75470a66362af8))
+* **deps:** update plugin gitsemver to v3.1.3 ([76a76f0](https://github.com/DanySK/rrmxmx-kt/commit/76a76f0576ded3a58046ff8f2dd8627da1af0ce4))
+* **deps:** update plugin gitsemver to v3.1.4 ([4f9d970](https://github.com/DanySK/rrmxmx-kt/commit/4f9d97038cef2fbaa80c3a662be0c3c0be449a20))
+* **deps:** update plugin kotlin-qa to v0.60.3 ([78eecda](https://github.com/DanySK/rrmxmx-kt/commit/78eecdaf73dd72e18fea22be5a06aa04569296c0))
+* **deps:** update plugin kotlin-qa to v0.60.4 ([da5dfda](https://github.com/DanySK/rrmxmx-kt/commit/da5dfdae9bdfaf3c67f933041f0cc872c87a967b))
+* **deps:** update plugin kotlin-qa to v0.61.0 ([c22a9e8](https://github.com/DanySK/rrmxmx-kt/commit/c22a9e858d56f4c4231a1d90fbe87c2fa0849c6a))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v2.0.3 ([a7269ba](https://github.com/DanySK/rrmxmx-kt/commit/a7269ba08ffb6d837da6dfe85980550fb3921361))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v2.0.4 ([e99a651](https://github.com/DanySK/rrmxmx-kt/commit/e99a65146ec1f933d2dd78832b014c580a3e2cc2))
+* **deps:** update plugin publishoncentral to v5.0.25 ([815aaff](https://github.com/DanySK/rrmxmx-kt/commit/815aaffde132d434d75be90b2d3453bbe4dfcc15))
+* **deps:** update plugin publishoncentral to v5.0.26 ([49eb51d](https://github.com/DanySK/rrmxmx-kt/commit/49eb51d515884444f5ce71018402585155a3c8fb))
+* **deps:** update plugin publishoncentral to v5.1.0 ([9bf9bf6](https://github.com/DanySK/rrmxmx-kt/commit/9bf9bf64840baf6e084349665ffa454efc290ef6))
+* **deps:** update plugin tasktree to v3 ([3155750](https://github.com/DanySK/rrmxmx-kt/commit/31557502335f08dcab10c5bee13bc76009a2f600))
+
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v4.1.2 ([fa159ba](https://github.com/DanySK/rrmxmx-kt/commit/fa159babdec7ccb7a2e2fd028a3d82f2b6311abd))
+* **deps:** update actions/checkout action to v4.1.3 ([4ab7c96](https://github.com/DanySK/rrmxmx-kt/commit/4ab7c9677ec4ee1c7ae16fb1245c4987311f1c09))
+* **deps:** update actions/checkout action to v4.1.4 ([16c07ef](https://github.com/DanySK/rrmxmx-kt/commit/16c07eff3456b27758c5a756bc66628f8d003de7))
+* **deps:** update danysk/action-checkout action to v0.2.15 ([17c660e](https://github.com/DanySK/rrmxmx-kt/commit/17c660ef1d8cc520732bcd0a19c34b26ae6977fc))
+* **deps:** update danysk/action-checkout action to v0.2.16 ([00250e3](https://github.com/DanySK/rrmxmx-kt/commit/00250e3cc5a65acde1b6d2ab9e7d0bf105a8e4f2))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.4.10 ([609c398](https://github.com/DanySK/rrmxmx-kt/commit/609c3985d136c47f7cf6eeb0cef3b94a7e15a21d))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.4.11 ([d1567a2](https://github.com/DanySK/rrmxmx-kt/commit/d1567a2edfbe91d000be387c43a191dab9c09cfb))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.4.12 ([c8d3ae2](https://github.com/DanySK/rrmxmx-kt/commit/c8d3ae2703f224d4de32fc4fd1a2d84a85562a1b))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.4.13 ([3d275fb](https://github.com/DanySK/rrmxmx-kt/commit/3d275fb196fce7c8dcfd1ad7a13be8b69d802e2c))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.4.14 ([c9dfaed](https://github.com/DanySK/rrmxmx-kt/commit/c9dfaed693ca6c6bd72143127b72a7e32983a64d))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.4.15 ([da60139](https://github.com/DanySK/rrmxmx-kt/commit/da601395f34606d18434e021a376d461fcf5af32))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.4.16 ([a4e293a](https://github.com/DanySK/rrmxmx-kt/commit/a4e293ab9f3ea4e22c386bde8b295a8c2613b510))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.4.17 ([29bb4dc](https://github.com/DanySK/rrmxmx-kt/commit/29bb4dc1711152a8894965cc67981bfde6b50018))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.4.18 ([fab7ae0](https://github.com/DanySK/rrmxmx-kt/commit/fab7ae0535dc18fa098fa3d31bf7fd86aed628f0))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.4.7 ([f83dde9](https://github.com/DanySK/rrmxmx-kt/commit/f83dde90afb32d4c83218a5c7b02a5a27b6ba82d))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.4.8 ([fdcfafb](https://github.com/DanySK/rrmxmx-kt/commit/fdcfafba35399ca5e3f174d98201dc4f8666809f))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.4.9 ([051601f](https://github.com/DanySK/rrmxmx-kt/commit/051601f138404542950cb0b8fc89f1e841b0298c))
+* **deps:** update dependency macos github actions runner to v13 ([f04fe64](https://github.com/DanySK/rrmxmx-kt/commit/f04fe64c45d917177ecee70265548057fc0caf59))
+* **deps:** update dependency macos github actions runner to v14 ([90f144a](https://github.com/DanySK/rrmxmx-kt/commit/90f144a01918cfda4b130b5b6e9c58dba9fff021))
+
 ## [1.1.16](https://github.com/DanySK/rrmxmx-kt/compare/1.1.15...1.1.16) (2024-03-07)
 
 
