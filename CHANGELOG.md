@@ -1,3 +1,29 @@
+## [1.1.18](https://github.com/DanySK/rrmxmx-kt/compare/1.1.17...1.1.18) (2024-05-21)
+
+
+### Dependency updates
+
+* **core-deps:** update dependency org.jetbrains.kotlin.multiplatform to v2 ([f0bfba0](https://github.com/DanySK/rrmxmx-kt/commit/f0bfba0298aec179a0ab5c24f6c81bb546a3e4a8))
+* **deps:** update kotest to v5.9.0 ([ef18469](https://github.com/DanySK/rrmxmx-kt/commit/ef18469fb912ebc0400824cb7f957dbba72c0084))
+* **deps:** update node.js to 20.13 ([bed420d](https://github.com/DanySK/rrmxmx-kt/commit/bed420d33f8593a3e2889c4fd2e0aadbfdb84bc5))
+* **deps:** update plugin com.gradle.enterprise to v3.17.3 ([0c68e47](https://github.com/DanySK/rrmxmx-kt/commit/0c68e4783753ea9dc4cb45cd0306338052462454))
+* **deps:** update plugin com.gradle.enterprise to v3.17.4 ([ac70bde](https://github.com/DanySK/rrmxmx-kt/commit/ac70bde4386c7d3736dd3c11f095055a913eaebe))
+* **deps:** update plugin gitsemver to v3.1.5 ([5a7b9d1](https://github.com/DanySK/rrmxmx-kt/commit/5a7b9d1315ceee7e4dcacf5a8b52800e70124b08))
+* **deps:** update plugin kotlin-qa to v0.61.1 ([f8c19ad](https://github.com/DanySK/rrmxmx-kt/commit/f8c19ad6569a298953d4f105edf89d7d795f72a1))
+* **deps:** update plugin kotlin-qa to v0.62.0 ([0a38c89](https://github.com/DanySK/rrmxmx-kt/commit/0a38c899f654b6d3302a2573e81874855b6fc9b1))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v2.0.5 ([40e3e8f](https://github.com/DanySK/rrmxmx-kt/commit/40e3e8f867beb9cf5143990a71b15db67e6e8431))
+* **deps:** update plugin publishoncentral to v5.1.1 ([38ec9d6](https://github.com/DanySK/rrmxmx-kt/commit/38ec9d646aa195bb23bd20d390e56633696ad165))
+
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v4.1.5 ([a03c244](https://github.com/DanySK/rrmxmx-kt/commit/a03c24441292ed56efdad74ca21bf43d0f9420ac))
+* **deps:** update actions/checkout action to v4.1.6 ([835797e](https://github.com/DanySK/rrmxmx-kt/commit/835797ebb7477a3c881c995bb34c7de63865b16b))
+* **deps:** update danysk/action-checkout action to v0.2.17 ([3ec99d8](https://github.com/DanySK/rrmxmx-kt/commit/3ec99d812fd05284c0a61a0a35ceb2e2cefaffbd))
+* **deps:** update danysk/action-checkout action to v0.2.18 ([edd27bd](https://github.com/DanySK/rrmxmx-kt/commit/edd27bd96d0377f07d09e35c65ae3f014c81e0b0))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.4.19 ([1f26b56](https://github.com/DanySK/rrmxmx-kt/commit/1f26b56081a2a50117395d32121171d371e6582a))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v2.4.20 ([54fd091](https://github.com/DanySK/rrmxmx-kt/commit/54fd091d5bcb20aab6376c9145d96b930721db3c))
+
 ## [1.1.17](https://github.com/DanySK/rrmxmx-kt/compare/1.1.16...1.1.17) (2024-05-07)
 
 
