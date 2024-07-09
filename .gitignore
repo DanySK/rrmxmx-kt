@@ -1,6 +1,7 @@
 .gradle/
 build/
 .idea/
+.kotlin/
 .vscode
 bin
 kotlin-js-store
