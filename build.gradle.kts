@@ -1,5 +1,9 @@
+@file:OptIn(ExperimentalKotlinGradlePluginApi::class)
+
 import org.danilopianini.gradle.mavencentral.JavadocJar
 import org.gradle.internal.os.OperatingSystem
+import org.jetbrains.kotlin.gradle.ExperimentalKotlinGradlePluginApi
+import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 import org.jetbrains.kotlin.gradle.plugin.mpp.KotlinNativeTarget
 
 @Suppress("DSL_SCOPE_VIOLATION")
@@ -22,12 +26,18 @@ repositories {
 }
 
 kotlin {
+
+    compilerOptions {
+        allWarningsAsErrors = true
+        freeCompilerArgs.add("-Xexpect-actual-classes")
+    }
+
     jvm {
-        compilations.all {
-            kotlinOptions.jvmTarget = "1.8"
-        }
         testRuns["test"].executionTask.configure {
             useJUnitPlatform()
+        }
+        compilerOptions {
+            jvmTarget.set(JvmTarget.JVM_1_8)
         }
     }
 
@@ -43,12 +53,6 @@ kotlin {
             dependencies {
                 implementation(libs.kotest.runner.junit5)
             }
-        }
-        val nativeMain by creating {
-            dependsOn(commonMain)
-        }
-        val nativeTest by creating {
-            dependsOn(commonTest)
         }
     }
 
@@ -91,15 +95,6 @@ kotlin {
     tvosArm64(nativeSetup)
     tvosX64(nativeSetup)
     tvosSimulatorArm64(nativeSetup)
-
-    targets.all {
-        compilations.all {
-            kotlinOptions {
-                allWarningsAsErrors = true
-                freeCompilerArgs += listOf("-Xexpect-actual-classes")
-            }
-        }
-    }
 
     val os = OperatingSystem.current()
     val excludeTargets = when {
