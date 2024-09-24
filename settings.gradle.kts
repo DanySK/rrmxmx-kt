@@ -16,4 +16,4 @@ gitHooks {
     createHooks()
 }
 
-rootProject.name = "rrmxmx-kt".toLowerCase()
+rootProject.name = "rrmxmx-kt".lowercase()
