@@ -10,7 +10,7 @@ class RrmxmxRandomSequence(seed: ULong) : Sequence<ULong> by generateSequence(
     rrmxmx(seed + gamma),
     { rrmxmx(it + gamma) },
 ) {
-    companion object {
+    private companion object {
         private const val gamma = 0x40ead42ca1cd0131UL
     }
 }
