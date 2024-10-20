@@ -1,3 +1,19 @@
+## [1.1.21](https://github.com/DanySK/rrmxmx-kt/compare/1.1.20...1.1.21) (2024-10-20)
+
+### Dependency updates
+
+* **deps:** update dependency org.jetbrains.kotlin.multiplatform to v2.0.21 ([2a94407](https://github.com/DanySK/rrmxmx-kt/commit/2a94407ff2efc0d95e78a38d89420e21d7e3491e))
+* **deps:** update plugin kotlin-qa to v0.68.0 ([f4af6b2](https://github.com/DanySK/rrmxmx-kt/commit/f4af6b20d78b05066000d15e1f8aff5d21c50d72))
+* **deps:** update plugin publishoncentral to v5.1.9 ([ad04228](https://github.com/DanySK/rrmxmx-kt/commit/ad0422849bb99de1cca8124b950f9efab6b72819))
+
+### Bug Fixes
+
+* make RrmxmxRandomSequence.Companion private ([0498d56](https://github.com/DanySK/rrmxmx-kt/commit/0498d566a4a8657a4b38953189f1d96a5ce7e08d))
+
+### Documentation
+
+* document RrmxmxRandom.Companion ([184273b](https://github.com/DanySK/rrmxmx-kt/commit/184273b2791c9c99a682728705982045ca1a3a17))
+
 ## [1.1.20](https://github.com/DanySK/rrmxmx-kt/compare/1.1.19...1.1.20) (2024-10-09)
 
 ### Dependency updates
