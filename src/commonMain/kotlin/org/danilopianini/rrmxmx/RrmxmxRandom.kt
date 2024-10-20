@@ -38,6 +38,9 @@ class RrmxmxRandom(val seed: ULong = defaultSeed) : Random() {
         }
     }
 
+    /**
+     * Container of constants.
+     */
     companion object {
         /**
          * Default value of the random generator seed.
