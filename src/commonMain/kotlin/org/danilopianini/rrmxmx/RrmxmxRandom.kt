@@ -7,7 +7,9 @@ import kotlin.random.Random
  *
  * The sequence is reproducible for a given [seed]
  */
-class RrmxmxRandom(val seed: ULong = DEFAULT_SEED) : Random() {
+class RrmxmxRandom(
+    val seed: ULong = DEFAULT_SEED,
+) : Random() {
     private val sequence = RrmxmxRandomSequence(seed).iterator()
     private var current = sequence.next()
     private var consumed = 0
@@ -24,12 +26,16 @@ class RrmxmxRandom(val seed: ULong = DEFAULT_SEED) : Random() {
              * Strategy: shift-left to delete the bits that have been consumed,
              * then shift right until the remaining bits are those to be returned.
              */
-                current.shl(consumed).shr(ULong.SIZE_BITS - bitCount).toInt()
+                current
+                    .shl(consumed)
+                    .shr(ULong.SIZE_BITS - bitCount)
+                    .toInt()
                     .also { consumed += bitCount }
             else -> {
                 // More bits than available. Generating a new random.
                 val next = sequence.next()
-                current.shl(consumed)
+                current
+                    .shl(consumed)
                     .or(next.shr(ULong.SIZE_BITS - consumed))
                     .shr(ULong.SIZE_BITS - bitCount)
                     .toInt()
