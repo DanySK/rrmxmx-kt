@@ -12,6 +12,8 @@ class RrmxmxRandom(val seed: ULong = DEFAULT_SEED) : Random() {
     private var current = sequence.next()
     private var consumed = 0
 
+    constructor(seed: Int) : this(seed.toULong())
+
     override fun nextBits(bitCount: Int): Int =
         when (bitCount) {
             0 -> 0
