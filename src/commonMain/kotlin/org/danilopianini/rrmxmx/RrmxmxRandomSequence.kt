@@ -7,10 +7,10 @@ import org.danilopianini.rrmxmx.Rrmxmx.rrmxmx
  * @param seed the seed to use
  */
 class RrmxmxRandomSequence(seed: ULong) : Sequence<ULong> by generateSequence(
-    rrmxmx(seed + gamma),
-    { rrmxmx(it + gamma) },
+    rrmxmx(seed + GAMMA),
+    { rrmxmx(it + GAMMA) },
 ) {
     private companion object {
-        private const val gamma = 0x40ead42ca1cd0131UL
+        private const val GAMMA = 0x40ead42ca1cd0131UL
     }
 }
