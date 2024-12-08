@@ -62,6 +62,13 @@ kotlin {
         binaries.library()
     }
 
+    wasmJs {
+        browser()
+        nodejs()
+        d8()
+        binaries.library()
+    }
+
     val nativeSetup: KotlinNativeTarget.() -> Unit = {
         binaries {
             sharedLib()
