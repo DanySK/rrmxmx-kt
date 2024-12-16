@@ -1,3 +1,14 @@
+## [2.0.1](https://github.com/DanySK/rrmxmx-kt/compare/2.0.0...2.0.1) (2024-12-16)
+
+### Dependency updates
+
+* **deps:** update plugin com.gradle.develocity to v3.19 ([#486](https://github.com/DanySK/rrmxmx-kt/issues/486)) ([416a284](https://github.com/DanySK/rrmxmx-kt/commit/416a2846f9ea95525e3c7245f73b5f2fb37e824f))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v2.0.16 ([#485](https://github.com/DanySK/rrmxmx-kt/issues/485)) ([f7e00d3](https://github.com/DanySK/rrmxmx-kt/commit/f7e00d34764f9b9e73e0216dd8e3410d04b9d248))
+
+### Documentation
+
+* **deps:** update plugin dokka to v2 ([#487](https://github.com/DanySK/rrmxmx-kt/issues/487)) ([3ad1f86](https://github.com/DanySK/rrmxmx-kt/commit/3ad1f86e737a3876f8a08026875e9ef72203baae))
+
 ## [2.0.0](https://github.com/DanySK/rrmxmx-kt/compare/1.1.21...2.0.0) (2024-12-09)
 
 ### ⚠ BREAKING CHANGES
