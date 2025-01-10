@@ -1,6 +1,5 @@
 @file:OptIn(ExperimentalKotlinGradlePluginApi::class)
 
-import org.danilopianini.gradle.mavencentral.JavadocJar
 import org.gradle.internal.os.OperatingSystem
 import org.jetbrains.kotlin.gradle.ExperimentalKotlinGradlePluginApi
 import org.jetbrains.kotlin.gradle.dsl.JvmTarget
@@ -130,16 +129,6 @@ kotlin {
     }
 }
 
-tasks.dokkaJavadoc {
-    enabled = false
-}
-
-tasks.withType<JavadocJar>().configureEach {
-    val dokka = tasks.dokkaHtml.get()
-    dependsOn(dokka)
-    from(dokka.outputDirectory)
-}
-
 signing {
     if (System.getenv("CI") == "true") {
         val signingKey: String? by project
@@ -149,6 +138,7 @@ signing {
 }
 
 publishOnCentral {
+    repoOwner = "DanySK"
     projectLongName.set("rrmxmx for Kotlin-MP")
     projectDescription.set("A Kotlin implementation of the rrmxmx hash function")
     repository("https://maven.pkg.github.com/danysk/${rootProject.name}".lowercase()) {
