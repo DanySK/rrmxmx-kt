@@ -18,7 +18,7 @@ plugins {
     alias(libs.plugins.taskTree)
 }
 
-group = "org.danilopianini"
+group = "org.danilopianini"Update build.gradle.kts
 
 repositories {
     google()
@@ -190,4 +190,17 @@ publishing {
             }
         }
     }
+}
+
+// Workaround for https://github.com/kotest/kotest/issues/4521 (fixed but not released)
+tasks.withType<KotlinCompilationTask<*>>().configureEach {
+    compilerOptions {
+        allWarningsAsErrors = !name.contains("test", ignoreCase = true)
+    }
+}
+
+// Workaround for https://github.com/kotest/kotest/issues/4647
+val kotestBrokenTasks = listOf("wasmJsBrowserTest", "wasmJsD8Test")
+tasks.matching { it.name in kotestBrokenTasks }.configureEach {
+    enabled = false
 }
