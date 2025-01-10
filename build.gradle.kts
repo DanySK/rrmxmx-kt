@@ -5,6 +5,7 @@ import org.gradle.internal.os.OperatingSystem
 import org.jetbrains.kotlin.gradle.ExperimentalKotlinGradlePluginApi
 import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 import org.jetbrains.kotlin.gradle.plugin.mpp.KotlinNativeTarget
+import org.jetbrains.kotlin.gradle.tasks.KotlinCompilationTask
 
 @Suppress("DSL_SCOPE_VIOLATION")
 plugins {
@@ -190,4 +191,17 @@ publishing {
             }
         }
     }
+}
+
+// Workaround for https://github.com/kotest/kotest/issues/4521 (fixed but not released)
+tasks.withType<KotlinCompilationTask<*>>().configureEach {
+    compilerOptions {
+        allWarningsAsErrors = !name.contains("test", ignoreCase = true)
+    }
+}
+
+// Workaround for https://github.com/kotest/kotest/issues/4647
+val kotestBrokenTasks = listOf("wasmJsBrowserTest", "wasmJsD8Test")
+tasks.matching { it.name in kotestBrokenTasks }.configureEach {
+    enabled = false
 }
