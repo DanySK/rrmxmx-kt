@@ -18,7 +18,7 @@ plugins {
     alias(libs.plugins.taskTree)
 }
 
-group = "org.danilopianini"Update build.gradle.kts
+group = "org.danilopianini"
 
 repositories {
     google()
