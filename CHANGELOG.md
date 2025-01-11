@@ -1,3 +1,31 @@
+## [2.0.2](https://github.com/DanySK/rrmxmx-kt/compare/2.0.1...2.0.2) (2025-01-10)
+
+### Dependency updates
+
+* **core-deps:** update kotlin monorepo to v2.1.0 ([#473](https://github.com/DanySK/rrmxmx-kt/issues/473)) ([ded4a27](https://github.com/DanySK/rrmxmx-kt/commit/ded4a274f0ea8222644724190f21ae83b8c1c5c1))
+* **deps:** update dependency gradle to v8.12 ([#492](https://github.com/DanySK/rrmxmx-kt/issues/492)) ([9cb4b43](https://github.com/DanySK/rrmxmx-kt/commit/9cb4b435c4d6929d559093e10dff1bb4be77e5ff))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.117 ([#494](https://github.com/DanySK/rrmxmx-kt/issues/494)) ([3b3e43d](https://github.com/DanySK/rrmxmx-kt/commit/3b3e43dcc2c80443f187a745c9e360c14c81061e))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.118 ([#499](https://github.com/DanySK/rrmxmx-kt/issues/499)) ([0c4c5c0](https://github.com/DanySK/rrmxmx-kt/commit/0c4c5c0c61ec6eb0ad8321bfaa0589c8dd7d063d))
+* **deps:** update node.js to 22.13 ([#497](https://github.com/DanySK/rrmxmx-kt/issues/497)) ([1b475eb](https://github.com/DanySK/rrmxmx-kt/commit/1b475eb13a6fdf3144134f1f720379a15da64085))
+* **deps:** update plugin kotlin-qa to v0.77.1 ([#479](https://github.com/DanySK/rrmxmx-kt/issues/479)) ([3db0bf8](https://github.com/DanySK/rrmxmx-kt/commit/3db0bf8f2f33ae55b8021e4b27edb952828f2dd3))
+* **deps:** update plugin kotlin-qa to v0.78.0 ([#484](https://github.com/DanySK/rrmxmx-kt/issues/484)) ([7195e94](https://github.com/DanySK/rrmxmx-kt/commit/7195e94cd652d35afca9241eca169954c76b30a7))
+* **deps:** update plugin npm-publish to v3.5.0 ([#495](https://github.com/DanySK/rrmxmx-kt/issues/495)) ([3bbcf06](https://github.com/DanySK/rrmxmx-kt/commit/3bbcf060aa7926c381cc4788701a2a45c4e92ad1))
+* **deps:** update plugin npm-publish to v3.5.1 ([#496](https://github.com/DanySK/rrmxmx-kt/issues/496)) ([71e1a19](https://github.com/DanySK/rrmxmx-kt/commit/71e1a19d7c7a0e359f83f803bea59448af6756f4))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v2.0.17 ([#488](https://github.com/DanySK/rrmxmx-kt/issues/488)) ([e485d59](https://github.com/DanySK/rrmxmx-kt/commit/e485d5987bfcd8c4983c585ddec4aea467a12a21))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v2.0.18 ([#493](https://github.com/DanySK/rrmxmx-kt/issues/493)) ([a5ca2b4](https://github.com/DanySK/rrmxmx-kt/commit/a5ca2b4edc935d4934beb29d9cf45bedc4fb018d))
+* **deps:** update plugin publishoncentral to v7 ([#483](https://github.com/DanySK/rrmxmx-kt/issues/483)) ([fdd8b27](https://github.com/DanySK/rrmxmx-kt/commit/fdd8b274f3ebfeb209321c737b876c24607fd5e9))
+
+### Build and continuous integration
+
+* **deps:** update danysk/build-check-deploy-gradle-action action to v3.5.26 ([#489](https://github.com/DanySK/rrmxmx-kt/issues/489)) ([3c80e7c](https://github.com/DanySK/rrmxmx-kt/commit/3c80e7c438fd3b8dd8ec3a051b3bd34dc5ad02c3))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v3.5.27 ([#490](https://github.com/DanySK/rrmxmx-kt/issues/490)) ([2fb9a74](https://github.com/DanySK/rrmxmx-kt/commit/2fb9a742cf58b428c2767ec1238e007b0ef0ba61))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v3.5.28 ([#491](https://github.com/DanySK/rrmxmx-kt/issues/491)) ([567cf08](https://github.com/DanySK/rrmxmx-kt/commit/567cf08a2bb75c6cbb5ffe860d547e7e71b56674))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v3.6.0 ([#500](https://github.com/DanySK/rrmxmx-kt/issues/500)) ([91ed27d](https://github.com/DanySK/rrmxmx-kt/commit/91ed27d4906ed281e78c3d31453268f4f52b6ff2))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v3.7.0 ([#501](https://github.com/DanySK/rrmxmx-kt/issues/501)) ([d350538](https://github.com/DanySK/rrmxmx-kt/commit/d3505383c8ec3268d8dea4717757640997ada57d))
+* improve the staging repo creation speed ([#504](https://github.com/DanySK/rrmxmx-kt/issues/504)) ([a1493d2](https://github.com/DanySK/rrmxmx-kt/commit/a1493d21007e1071d7392b2c00e63626c36a32fa))
+* use an external action ([#507](https://github.com/DanySK/rrmxmx-kt/issues/507)) ([bfdac12](https://github.com/DanySK/rrmxmx-kt/commit/bfdac12d86214fed5eac28feaac2af3cc254b171))
+* work around kotest/kotest[#4521](https://github.com/DanySK/rrmxmx-kt/issues/4521) and kotest/kotest[#4647](https://github.com/DanySK/rrmxmx-kt/issues/4647) ([#503](https://github.com/DanySK/rrmxmx-kt/issues/503)) ([48babd8](https://github.com/DanySK/rrmxmx-kt/commit/48babd8b26f7d186bf414004b3ca70ee6930082f))
+
 ## [2.0.1](https://github.com/DanySK/rrmxmx-kt/compare/2.0.0...2.0.1) (2024-12-16)
 
 ### Dependency updates
