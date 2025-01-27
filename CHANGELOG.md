@@ -1,3 +1,28 @@
+## [2.0.3](https://github.com/DanySK/rrmxmx-kt/compare/2.0.2...2.0.3) (2025-01-27)
+
+### Dependency updates
+
+* **core-deps:** update kotlin monorepo to v2.1.10 ([#524](https://github.com/DanySK/rrmxmx-kt/issues/524)) ([f94b869](https://github.com/DanySK/rrmxmx-kt/commit/f94b86932363293f70613e5466053a9eb71dcfdf))
+* **deps:** update dependency gradle to v8.12.1 ([#513](https://github.com/DanySK/rrmxmx-kt/issues/513)) ([0096a38](https://github.com/DanySK/rrmxmx-kt/commit/0096a38f368c0cae28d25c039122d3120b2b2ef3))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.119 ([#509](https://github.com/DanySK/rrmxmx-kt/issues/509)) ([47e748f](https://github.com/DanySK/rrmxmx-kt/commit/47e748fccfca2657aadde2fb5d3256c4b8c0adf5))
+* **deps:** update plugin com.gradle.develocity to v3.19.1 ([#511](https://github.com/DanySK/rrmxmx-kt/issues/511)) ([14ff3dd](https://github.com/DanySK/rrmxmx-kt/commit/14ff3dd00fb2980f594cac1af0a7fed286edc815))
+* **deps:** update plugin gitsemver to v3.1.8 ([#520](https://github.com/DanySK/rrmxmx-kt/issues/520)) ([689f448](https://github.com/DanySK/rrmxmx-kt/commit/689f448ce732176d0556c49c70a70b1236b6dc6c))
+* **deps:** update plugin gitsemver to v3.1.9 ([#521](https://github.com/DanySK/rrmxmx-kt/issues/521)) ([8f42980](https://github.com/DanySK/rrmxmx-kt/commit/8f4298099179714d0283988788281f79398aa0d5))
+* **deps:** update plugin npm-publish to v3.5.2 ([#508](https://github.com/DanySK/rrmxmx-kt/issues/508)) ([b4d293d](https://github.com/DanySK/rrmxmx-kt/commit/b4d293d610b46a8e2db2d41c4e6395caffbb7317))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v2.0.19 ([#514](https://github.com/DanySK/rrmxmx-kt/issues/514)) ([38a1f52](https://github.com/DanySK/rrmxmx-kt/commit/38a1f5229be3b1c33f0354681ec89bbad109f050))
+* **deps:** update plugin publishoncentral to v8 ([#498](https://github.com/DanySK/rrmxmx-kt/issues/498)) ([04e0f63](https://github.com/DanySK/rrmxmx-kt/commit/04e0f635093913e494ffce07693a60b73155f803))
+* **deps:** update plugin publishoncentral to v8.0.2 ([#516](https://github.com/DanySK/rrmxmx-kt/issues/516)) ([4a32686](https://github.com/DanySK/rrmxmx-kt/commit/4a32686a8f0cb83e1202dba8d1c18658a44c0475))
+
+### Build and continuous integration
+
+* **deps:** update actions/setup-node action to v4.2.0 ([#522](https://github.com/DanySK/rrmxmx-kt/issues/522)) ([9f07ffd](https://github.com/DanySK/rrmxmx-kt/commit/9f07ffdb40789bde95cc0301af4f99d2fd1e7057))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v3.7.1 ([#510](https://github.com/DanySK/rrmxmx-kt/issues/510)) ([2545e90](https://github.com/DanySK/rrmxmx-kt/commit/2545e9091b10096d9584e79015d80ebf6508721f))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v3.7.2 ([#512](https://github.com/DanySK/rrmxmx-kt/issues/512)) ([5fe5c0e](https://github.com/DanySK/rrmxmx-kt/commit/5fe5c0e03712a271842b5be3f0bcb08f6a37e45c))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v3.7.3 ([#515](https://github.com/DanySK/rrmxmx-kt/issues/515)) ([b0d9900](https://github.com/DanySK/rrmxmx-kt/commit/b0d99007d1537cba690a8b3691895fa125cdb691))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v3.7.4 ([#517](https://github.com/DanySK/rrmxmx-kt/issues/517)) ([c9cd77a](https://github.com/DanySK/rrmxmx-kt/commit/c9cd77ab15ad2f4f22e6a76ba866a838eceb068a))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v3.7.5 ([#518](https://github.com/DanySK/rrmxmx-kt/issues/518)) ([93c7613](https://github.com/DanySK/rrmxmx-kt/commit/93c76131fc99e7e5676dbdd303e6db665ce90718))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v3.7.6 ([#519](https://github.com/DanySK/rrmxmx-kt/issues/519)) ([c8ce1f9](https://github.com/DanySK/rrmxmx-kt/commit/c8ce1f98066e675093d342334c8113aeb4a0c902))
+
 ## [2.0.2](https://github.com/DanySK/rrmxmx-kt/compare/2.0.1...2.0.2) (2025-01-10)
 
 ### Dependency updates
