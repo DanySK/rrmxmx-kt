@@ -1,16 +1,14 @@
-@file:OptIn(ExperimentalKotlinGradlePluginApi::class)
+@file:OptIn(ExperimentalKotlinGradlePluginApi::class, ExperimentalWasmDsl::class)
 
-import org.danilopianini.gradle.mavencentral.JavadocJar
 import org.gradle.internal.os.OperatingSystem
 import org.jetbrains.kotlin.gradle.ExperimentalKotlinGradlePluginApi
+import org.jetbrains.kotlin.gradle.ExperimentalWasmDsl
 import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 import org.jetbrains.kotlin.gradle.plugin.mpp.KotlinNativeTarget
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompilationTask
 
-@Suppress("DSL_SCOPE_VIOLATION")
 plugins {
     alias(libs.plugins.kotlin.multiplatform)
-    alias(libs.plugins.kotest.multiplatform)
     alias(libs.plugins.dokka)
     alias(libs.plugins.gitSemVer)
     alias(libs.plugins.kotlin.qa)
@@ -46,13 +44,7 @@ kotlin {
         val commonMain by getting { }
         val commonTest by getting {
             dependencies {
-                implementation(libs.bundles.kotlin.testing.common)
-                implementation(libs.bundles.kotest.common)
-            }
-        }
-        val jvmTest by getting {
-            dependencies {
-                implementation(libs.kotest.runner.junit5)
+                implementation(libs.kotlin.test)
             }
         }
     }
@@ -130,16 +122,6 @@ kotlin {
     }
 }
 
-tasks.dokkaJavadoc {
-    enabled = false
-}
-
-tasks.withType<JavadocJar>().configureEach {
-    val dokka = tasks.dokkaHtml.get()
-    dependsOn(dokka)
-    from(dokka.outputDirectory)
-}
-
 signing {
     if (System.getenv("CI") == "true") {
         val signingKey: String? by project
@@ -149,6 +131,7 @@ signing {
 }
 
 publishOnCentral {
+    repoOwner = "DanySK"
     projectLongName.set("rrmxmx for Kotlin-MP")
     projectDescription.set("A Kotlin implementation of the rrmxmx hash function")
     repository("https://maven.pkg.github.com/danysk/${rootProject.name}".lowercase()) {
@@ -183,18 +166,3 @@ npmPublish {
     }
 }
 
-publishing {
-    publications {
-        publications.withType<MavenPublication>().configureEach {
-            if ("OSSRH" !in name) {
-                artifact(tasks.javadocJar)
-            }
-        }
-    }
-}
-
-// Workaround for https://github.com/kotest/kotest/issues/4647
-val kotestBrokenTasks = listOf("wasmJsBrowserTest", "wasmJsD8Test")
-tasks.matching { it.name in kotestBrokenTasks }.configureEach {
-    enabled = false
-}

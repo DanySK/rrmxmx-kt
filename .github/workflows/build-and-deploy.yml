@@ -60,7 +60,7 @@ jobs:
     steps:
       - name: Checkout
         uses: DanySK/action-checkout@0.2.22
-      - uses: DanySK/build-check-deploy-gradle-action@3.7.0
+      - uses: DanySK/build-check-deploy-gradle-action@3.7.6
         with:
           # Dry-deployment
           deploy-command: |
@@ -68,7 +68,7 @@ jobs:
             OVERRIDE_VERSION=$([[ "$NEXT_VERSION" != "" ]] && echo "-PforceVersion=$(echo $NEXT_VERSION)" || echo "")
             ./gradlew $OVERRIDE_VERSION -PstagingRepositoryId=${{ needs.staging-repo.outputs.maven-central-repo-id }} uploadAll --parallel
           should-run-codecov: ${{ runner.os == 'Linux' }}
-          should-deploy: ${{ contains(needs.staging-repo.result, 'success') }}
+          should-deploy: ${{ needs.check-secrets.outputs.run-with-secrets == 'true' }}
           codecov-token: ${{ secrets.CODECOV_TOKEN }}
           maven-central-username: ${{ secrets.MAVEN_CENTRAL_USERNAME }}
           maven-central-password: ${{ secrets.MAVEN_CENTRAL_PASSWORD }}
@@ -84,7 +84,7 @@ jobs:
     steps:
       - name: Checkout the repo
         uses: actions/checkout@v4.2.2
-      - uses: DanySK/build-check-deploy-gradle-action@3.7.0
+      - uses: DanySK/build-check-deploy-gradle-action@3.7.6
         with:
           maven-central-username: ${{ secrets.MAVEN_CENTRAL_USERNAME }}
           maven-central-password: ${{ secrets.MAVEN_CENTRAL_PASSWORD }}
@@ -114,10 +114,10 @@ jobs:
         id: node-version
         run: echo "version=$(jq -r .engines.node package.json)" >> $GITHUB_OUTPUT
       - name: Install Node
-        uses: actions/setup-node@v4.1.0
+        uses: actions/setup-node@v4.2.0
         with:
           node-version: ${{ steps.node-version.outputs.version }}
-      - uses: DanySK/build-check-deploy-gradle-action@3.7.0
+      - uses: DanySK/build-check-deploy-gradle-action@3.7.6
         env:
           STAGING_REPO_ID: ${{ needs.staging-repo.outputs.maven-central-repo-id }}
         with:

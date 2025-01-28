@@ -1,6 +1,6 @@
 plugins {
-    id("com.gradle.develocity") version "3.19"
-    id("org.danilopianini.gradle-pre-commit-git-hooks") version "2.0.18"
+    id("com.gradle.develocity") version "3.19.1"
+    id("org.danilopianini.gradle-pre-commit-git-hooks") version "2.0.20"
 }
 
 develocity {
