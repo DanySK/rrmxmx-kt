@@ -60,7 +60,7 @@ jobs:
     steps:
       - name: Checkout
         uses: DanySK/action-checkout@0.2.22
-      - uses: DanySK/build-check-deploy-gradle-action@3.7.13
+      - uses: DanySK/build-check-deploy-gradle-action@3.7.14
         with:
           # Dry-deployment
           deploy-command: |
@@ -84,7 +84,7 @@ jobs:
     steps:
       - name: Checkout the repo
         uses: actions/checkout@v4.2.2
-      - uses: DanySK/build-check-deploy-gradle-action@3.7.13
+      - uses: DanySK/build-check-deploy-gradle-action@3.7.14
         with:
           maven-central-username: ${{ secrets.MAVEN_CENTRAL_USERNAME }}
           maven-central-password: ${{ secrets.MAVEN_CENTRAL_PASSWORD }}
@@ -117,7 +117,7 @@ jobs:
         uses: actions/setup-node@v4.3.0
         with:
           node-version: ${{ steps.node-version.outputs.version }}
-      - uses: DanySK/build-check-deploy-gradle-action@3.7.13
+      - uses: DanySK/build-check-deploy-gradle-action@3.7.14
         env:
           STAGING_REPO_ID: ${{ needs.staging-repo.outputs.maven-central-repo-id }}
         with:
