@@ -61,6 +61,11 @@ kotlin {
         binaries.library()
     }
 
+    wasmWasi {
+        nodejs()
+        binaries.library()
+    }
+
     val nativeSetup: KotlinNativeTarget.() -> Unit = {
         binaries {
             sharedLib()
