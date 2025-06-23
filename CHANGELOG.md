@@ -1,3 +1,38 @@
+## [2.0.6](https://github.com/DanySK/rrmxmx-kt/compare/2.0.5...2.0.6) (2025-06-23)
+
+### Dependency updates
+
+* **core-deps:** update dependency org.jetbrains.kotlin.multiplatform to v2.2.0 ([#614](https://github.com/DanySK/rrmxmx-kt/issues/614)) ([193ecc7](https://github.com/DanySK/rrmxmx-kt/commit/193ecc7ee3f0c910868113f0b932ffcda3cd60e1))
+* **deps:** update dependency gradle to v8.14.1 ([#593](https://github.com/DanySK/rrmxmx-kt/issues/593)) ([3dac3ec](https://github.com/DanySK/rrmxmx-kt/commit/3dac3ec2794f6012e92585e30287df396d25f195))
+* **deps:** update dependency gradle to v8.14.2 ([#605](https://github.com/DanySK/rrmxmx-kt/issues/605)) ([2657cf9](https://github.com/DanySK/rrmxmx-kt/commit/2657cf9b766303d68510e9f281110ee5f58fd441))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.128 ([#589](https://github.com/DanySK/rrmxmx-kt/issues/589)) ([65b9530](https://github.com/DanySK/rrmxmx-kt/commit/65b9530c0c29afdce19f9e4101a83b84884a3ce8))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.129 ([#597](https://github.com/DanySK/rrmxmx-kt/issues/597)) ([3668ed9](https://github.com/DanySK/rrmxmx-kt/commit/3668ed9a389ca920b3357702a4ed68a8bdf4e240))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.131 ([#600](https://github.com/DanySK/rrmxmx-kt/issues/600)) ([8299b3d](https://github.com/DanySK/rrmxmx-kt/commit/8299b3de95a40c0533f15a6299e2d96446f8dfc4))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.132 ([#602](https://github.com/DanySK/rrmxmx-kt/issues/602)) ([ceb3de6](https://github.com/DanySK/rrmxmx-kt/commit/ceb3de6efdeca8bf9414a95af3ffa1f51a052164))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.133 ([#604](https://github.com/DanySK/rrmxmx-kt/issues/604)) ([01fa1d2](https://github.com/DanySK/rrmxmx-kt/commit/01fa1d2440fc35e0e866ff6580c3b0d46a0ba498))
+* **deps:** update node.js to 22.16 ([#598](https://github.com/DanySK/rrmxmx-kt/issues/598)) ([e60bd11](https://github.com/DanySK/rrmxmx-kt/commit/e60bd11c89f63ee0994d2d6e56f4a325eca04d21))
+* **deps:** update plugin com.gradle.develocity to v4.0.2 ([#601](https://github.com/DanySK/rrmxmx-kt/issues/601)) ([e412d58](https://github.com/DanySK/rrmxmx-kt/commit/e412d58ae8d1672609a1201a1005ba295145c4bd))
+* **deps:** update plugin gitsemver to v5.1.3 ([#585](https://github.com/DanySK/rrmxmx-kt/issues/585)) ([fb7f026](https://github.com/DanySK/rrmxmx-kt/commit/fb7f026aebfc8918de916360ce864fa7ee8491ad))
+* **deps:** update plugin gitsemver to v5.1.4 ([#606](https://github.com/DanySK/rrmxmx-kt/issues/606)) ([41c0499](https://github.com/DanySK/rrmxmx-kt/commit/41c04998c88f657628080789955c14f33c9c1458))
+* **deps:** update plugin kotlin-qa to v0.86.2 ([#586](https://github.com/DanySK/rrmxmx-kt/issues/586)) ([af66baa](https://github.com/DanySK/rrmxmx-kt/commit/af66baab0d49e42116833968bd39300b4dc62dec))
+* **deps:** update plugin kotlin-qa to v0.87.0 ([#592](https://github.com/DanySK/rrmxmx-kt/issues/592)) ([28ecebf](https://github.com/DanySK/rrmxmx-kt/commit/28ecebf069ec15c56704a89e5f0188793ba2b931))
+* **deps:** update plugin kotlin-qa to v0.87.1 ([#594](https://github.com/DanySK/rrmxmx-kt/issues/594)) ([f89ab7e](https://github.com/DanySK/rrmxmx-kt/commit/f89ab7ee155456bcbddf64267c97cb8341d5d8bd))
+* **deps:** update plugin kotlin-qa to v0.88.0 ([#599](https://github.com/DanySK/rrmxmx-kt/issues/599)) ([c0884fa](https://github.com/DanySK/rrmxmx-kt/commit/c0884fa1a2a148b35a77e38d7cf2aa96cc68f282))
+* **deps:** update plugin kotlin-qa to v0.89.0 ([#603](https://github.com/DanySK/rrmxmx-kt/issues/603)) ([6db72a6](https://github.com/DanySK/rrmxmx-kt/commit/6db72a6f9699555ad977a3d9897dcce0cc4695f4))
+* **deps:** update plugin kotlin-qa to v0.89.1 ([#608](https://github.com/DanySK/rrmxmx-kt/issues/608)) ([c6e398e](https://github.com/DanySK/rrmxmx-kt/commit/c6e398e22bd6e08e3e8c19df9db99ef9e4fa6070))
+* **deps:** update plugin npm-publish to v4.0.3 ([#588](https://github.com/DanySK/rrmxmx-kt/issues/588)) ([10107e5](https://github.com/DanySK/rrmxmx-kt/commit/10107e5d2ee8c70d8762732d28b0264214ebc1f4))
+* **deps:** update plugin npm-publish to v4.0.4 ([#596](https://github.com/DanySK/rrmxmx-kt/issues/596)) ([10c346e](https://github.com/DanySK/rrmxmx-kt/commit/10c346ef1772d3858b6dc0c56dc4dd0b8d98e37e))
+* **deps:** update plugin npm-publish to v4.0.5 ([#607](https://github.com/DanySK/rrmxmx-kt/issues/607)) ([0f88d64](https://github.com/DanySK/rrmxmx-kt/commit/0f88d64ecb1bee972e45c76bf88312fde3955b0d))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v2.0.24 ([#587](https://github.com/DanySK/rrmxmx-kt/issues/587)) ([b5ef53c](https://github.com/DanySK/rrmxmx-kt/commit/b5ef53c08bf540c08f4e42bbcf41e73a8b1899cc))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v2.0.25 ([#595](https://github.com/DanySK/rrmxmx-kt/issues/595)) ([6127e92](https://github.com/DanySK/rrmxmx-kt/commit/6127e921fc5aa9abbf65b52356d2d9a4be56cb29))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v2.0.26 ([#609](https://github.com/DanySK/rrmxmx-kt/issues/609)) ([5273e63](https://github.com/DanySK/rrmxmx-kt/commit/5273e63a986a62f40f4aef724a3994c84ff5954a))
+
+### Build and continuous integration
+
+* **deps:** update danysk/build-check-deploy-gradle-action action to v3.7.19 ([#590](https://github.com/DanySK/rrmxmx-kt/issues/590)) ([a912e72](https://github.com/DanySK/rrmxmx-kt/commit/a912e72e83f0dacc1e6ef0d0b5dd954ba07a0a02))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v3.7.20 ([#591](https://github.com/DanySK/rrmxmx-kt/issues/591)) ([cd0f291](https://github.com/DanySK/rrmxmx-kt/commit/cd0f291cbae296f90e024bfc13000e205b38c582))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v4 ([#610](https://github.com/DanySK/rrmxmx-kt/issues/610)) ([5a59b0d](https://github.com/DanySK/rrmxmx-kt/commit/5a59b0d14477dc15a0feae96475a6d71ecfed1df))
+
 ## [2.0.5](https://github.com/DanySK/rrmxmx-kt/compare/2.0.4...2.0.5) (2025-05-13)
 
 ### Dependency updates
