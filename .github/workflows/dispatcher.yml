@@ -14,7 +14,7 @@ on:
   workflow_dispatch:
 
 concurrency:
-  group: ci-${{ github.workflow }}-${{ github.event.number || github.ref }}
+  group: ${{ github.workflow }}-${{ github.event.number || github.ref }}
   cancel-in-progress: ${{ github.ref != 'refs/heads/master' }}
 
 jobs:
@@ -30,4 +30,7 @@ jobs:
     needs:
       - dispatcher
     uses: ./.github/workflows/build-and-deploy.yml
+    permissions:
+      contents: write
+      packages: write
     secrets: inherit
