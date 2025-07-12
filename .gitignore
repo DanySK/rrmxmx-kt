@@ -2,6 +2,7 @@
 build/
 .idea/
 .kotlin/
+node_modules/
 .vscode
 bin
 kotlin-js-store
