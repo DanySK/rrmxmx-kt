@@ -1,3 +1,23 @@
+## [2.0.7](https://github.com/DanySK/rrmxmx-kt/compare/2.0.6...2.0.7) (2025-07-12)
+
+### Dependency updates
+
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.134 ([#621](https://github.com/DanySK/rrmxmx-kt/issues/621)) ([9b416fd](https://github.com/DanySK/rrmxmx-kt/commit/9b416fd584390db2dc400bf46b962a0d3151a684))
+* **deps:** update node.js to 22.17 ([#617](https://github.com/DanySK/rrmxmx-kt/issues/617)) ([7bef5ea](https://github.com/DanySK/rrmxmx-kt/commit/7bef5eaad034d7578bfd9175f7b0ce91a9a9d410))
+* **deps:** update plugin gitsemver to v5.1.5 ([#619](https://github.com/DanySK/rrmxmx-kt/issues/619)) ([0833285](https://github.com/DanySK/rrmxmx-kt/commit/08332859b5c0c0936057ad6caa8fa2e2b6b7f343))
+* **deps:** update plugin kotlin-qa to v0.89.2 ([#615](https://github.com/DanySK/rrmxmx-kt/issues/615)) ([af8cdc6](https://github.com/DanySK/rrmxmx-kt/commit/af8cdc6013d1fb96d44ff27f721c6467589ed27e))
+* **deps:** update plugin kotlin-qa to v0.90.0 ([#618](https://github.com/DanySK/rrmxmx-kt/issues/618)) ([d12db97](https://github.com/DanySK/rrmxmx-kt/commit/d12db97efe0e1841321595c8bb1734b92494c852))
+* **deps:** update plugin kotlin-qa to v0.90.1 ([#620](https://github.com/DanySK/rrmxmx-kt/issues/620)) ([9932918](https://github.com/DanySK/rrmxmx-kt/commit/99329185184979b290802a0d4b5db7563fba61f3))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v2.0.27 ([#616](https://github.com/DanySK/rrmxmx-kt/issues/616)) ([f7bd434](https://github.com/DanySK/rrmxmx-kt/commit/f7bd4347b45e5b2233ef2abfd787cbba828d8638))
+
+### Bug Fixes
+
+* **release:** migrate to Maven Central Portal ([#628](https://github.com/DanySK/rrmxmx-kt/issues/628)) ([9c5183b](https://github.com/DanySK/rrmxmx-kt/commit/9c5183b0bb4f1a25dc683ffacdad32d6bb1838ab))
+
+### Build and continuous integration
+
+* **deps:** update danysk/build-check-deploy-gradle-action action to v4.0.1 ([#612](https://github.com/DanySK/rrmxmx-kt/issues/612)) ([b7ee116](https://github.com/DanySK/rrmxmx-kt/commit/b7ee11687824099004dbdbf6e621e4bb89b4330e))
+
 ## [2.0.6](https://github.com/DanySK/rrmxmx-kt/compare/2.0.5...2.0.6) (2025-06-23)
 
 ### Dependency updates
