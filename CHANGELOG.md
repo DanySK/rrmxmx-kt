@@ -1,3 +1,23 @@
+## [2.1.0](https://github.com/DanySK/rrmxmx-kt/compare/2.0.8...2.1.0) (2025-08-20)
+
+### Features
+
+* enable wasmWasi ([cc43cab](https://github.com/DanySK/rrmxmx-kt/commit/cc43cabee7af25fbdfeaadc8c9c97a030e994ccd))
+
+### Dependency updates
+
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.140 ([#659](https://github.com/DanySK/rrmxmx-kt/issues/659)) ([23c67bd](https://github.com/DanySK/rrmxmx-kt/commit/23c67bd08aa18a765ee8f0f3e92e88e46d5c1a5f))
+* **deps:** update plugin com.gradle.develocity to v4.1.1 ([#660](https://github.com/DanySK/rrmxmx-kt/issues/660)) ([a636f2d](https://github.com/DanySK/rrmxmx-kt/commit/a636f2de1c338eed90485968a2835f09ed18cbea))
+* **deps:** update plugin gitsemver to v6.0.1 ([#655](https://github.com/DanySK/rrmxmx-kt/issues/655)) ([2d16cf5](https://github.com/DanySK/rrmxmx-kt/commit/2d16cf5d1a2eaf03f091826b43367049a4a5063c))
+* **deps:** update plugin kotlin-qa to v0.93.1 ([#651](https://github.com/DanySK/rrmxmx-kt/issues/651)) ([146c392](https://github.com/DanySK/rrmxmx-kt/commit/146c3920126303d11f5cfce4f89b8f77dc55db6d))
+* **deps:** update plugin kotlin-qa to v0.93.2 ([#656](https://github.com/DanySK/rrmxmx-kt/issues/656)) ([eb2868d](https://github.com/DanySK/rrmxmx-kt/commit/eb2868dc7e2340210e3dcac9b403de2e22ac0ce4))
+* **deps:** update plugin kotlin-qa to v0.93.3 ([#658](https://github.com/DanySK/rrmxmx-kt/issues/658)) ([70b6e68](https://github.com/DanySK/rrmxmx-kt/commit/70b6e68a59d89cf8dd7e11fcfa11bdfd1e4a6b92))
+* **deps:** update plugin npm-publish to v4.1.0 ([#648](https://github.com/DanySK/rrmxmx-kt/issues/648)) ([0ad0100](https://github.com/DanySK/rrmxmx-kt/commit/0ad01004ca41ddc119d93b09036e30c5f18a582a))
+* **deps:** update plugin npm-publish to v4.1.1 ([#654](https://github.com/DanySK/rrmxmx-kt/issues/654)) ([7651c59](https://github.com/DanySK/rrmxmx-kt/commit/7651c59cdd9a01a121f2d5733927d24880118991))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v2.0.29 ([#652](https://github.com/DanySK/rrmxmx-kt/issues/652)) ([3e46621](https://github.com/DanySK/rrmxmx-kt/commit/3e466212668fe73d081417155bf03573aaec3ac2))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v2.0.30 ([#657](https://github.com/DanySK/rrmxmx-kt/issues/657)) ([c05cd51](https://github.com/DanySK/rrmxmx-kt/commit/c05cd51529243915c50203be4d798678c473067f))
+* **deps:** update plugin publishoncentral to v9.1.3 ([#653](https://github.com/DanySK/rrmxmx-kt/issues/653)) ([f19d915](https://github.com/DanySK/rrmxmx-kt/commit/f19d915335c975fe8854cdafcce33dfd4a6c59d3))
+
 ## [2.0.8](https://github.com/DanySK/rrmxmx-kt/compare/2.0.7...2.0.8) (2025-08-14)
 
 ### Dependency updates
