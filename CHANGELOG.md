@@ -1,3 +1,29 @@
+## [2.1.1](https://github.com/DanySK/rrmxmx-kt/compare/2.1.0...2.1.1) (2025-09-10)
+
+### Dependency updates
+
+* **core-deps:** update dependency org.jetbrains.kotlin.multiplatform to v2.2.20 ([#674](https://github.com/DanySK/rrmxmx-kt/issues/674)) ([f182797](https://github.com/DanySK/rrmxmx-kt/commit/f182797ebd8543cacce748e2501108f9fec4b1ab))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.141 ([#669](https://github.com/DanySK/rrmxmx-kt/issues/669)) ([3f9e101](https://github.com/DanySK/rrmxmx-kt/commit/3f9e1015884ab21470ef1726278cde583eb0ea8e))
+* **deps:** update node.js to 22.19 ([#667](https://github.com/DanySK/rrmxmx-kt/issues/667)) ([7316d37](https://github.com/DanySK/rrmxmx-kt/commit/7316d379e5cc2173fe99d60ca6a7a4b2b51faab8))
+* **deps:** update plugin gitsemver to v6.0.2 ([#661](https://github.com/DanySK/rrmxmx-kt/issues/661)) ([290b7c3](https://github.com/DanySK/rrmxmx-kt/commit/290b7c3563ea3964d7d11a4c09a4660ea284c710))
+* **deps:** update plugin gitsemver to v7 ([#662](https://github.com/DanySK/rrmxmx-kt/issues/662)) ([3bd6e4d](https://github.com/DanySK/rrmxmx-kt/commit/3bd6e4d9f19a0c26bf2e33b719aaa240c9a9ac2b))
+* **deps:** update plugin gitsemver to v7.0.2 ([#664](https://github.com/DanySK/rrmxmx-kt/issues/664)) ([ad6b7b7](https://github.com/DanySK/rrmxmx-kt/commit/ad6b7b766bb21d9d657a19336c899d75a43e9e50))
+* **deps:** update plugin gitsemver to v7.0.3 ([#678](https://github.com/DanySK/rrmxmx-kt/issues/678)) ([e57bac8](https://github.com/DanySK/rrmxmx-kt/commit/e57bac874ffcb2bf949f6135eca8bda923de871d))
+* **deps:** update plugin kotlin-qa to v0.94.0 ([#666](https://github.com/DanySK/rrmxmx-kt/issues/666)) ([b950a37](https://github.com/DanySK/rrmxmx-kt/commit/b950a374b88c9b2866a0dc9ea9c5e59600fda8f3))
+* **deps:** update plugin kotlin-qa to v0.94.1 ([#675](https://github.com/DanySK/rrmxmx-kt/issues/675)) ([5e9e0e5](https://github.com/DanySK/rrmxmx-kt/commit/5e9e0e55580f29330fe47f1411eec50d973bb316))
+* **deps:** update plugin npm-publish to v4.1.2 ([#676](https://github.com/DanySK/rrmxmx-kt/issues/676)) ([dc0f46c](https://github.com/DanySK/rrmxmx-kt/commit/dc0f46c24ed36ee7d90c0d34cc365bbf00365338))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v2.1.0 ([#668](https://github.com/DanySK/rrmxmx-kt/issues/668)) ([43f5628](https://github.com/DanySK/rrmxmx-kt/commit/43f56284cc281163af9d99feb3f047d78c8e3375))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v2.1.1 ([#679](https://github.com/DanySK/rrmxmx-kt/issues/679)) ([3e13138](https://github.com/DanySK/rrmxmx-kt/commit/3e131381bfc1b9f9f38fe76bef4b8c2e35011214))
+* **deps:** update plugin publishoncentral to v9.1.4 ([#677](https://github.com/DanySK/rrmxmx-kt/issues/677)) ([d92d248](https://github.com/DanySK/rrmxmx-kt/commit/d92d248d8888d325d5e4701ff237e1e8a7f6527d))
+
+### Build and continuous integration
+
+* **deps:** update actions/setup-node action to v5 ([#670](https://github.com/DanySK/rrmxmx-kt/issues/670)) ([7bdb89f](https://github.com/DanySK/rrmxmx-kt/commit/7bdb89ffd5e8782be56ee9188d8d0344e5925ee3))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v4.0.4 ([#663](https://github.com/DanySK/rrmxmx-kt/issues/663)) ([3a26598](https://github.com/DanySK/rrmxmx-kt/commit/3a26598b26216957154af73bf2a7f0690ac04ab9))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v4.0.5 ([#665](https://github.com/DanySK/rrmxmx-kt/issues/665)) ([5012c54](https://github.com/DanySK/rrmxmx-kt/commit/5012c543f0023cfb53c2f61b14e668ee48f1ed06))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v4.0.6 ([#671](https://github.com/DanySK/rrmxmx-kt/issues/671)) ([29b956f](https://github.com/DanySK/rrmxmx-kt/commit/29b956f3a5bdf3cd32b8de3d2130de2db1ff0414))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v4.0.7 ([#672](https://github.com/DanySK/rrmxmx-kt/issues/672)) ([d7883b0](https://github.com/DanySK/rrmxmx-kt/commit/d7883b00b30dc7ae6e91d0695ac33fe31ea0a209))
+
 ## [2.1.0](https://github.com/DanySK/rrmxmx-kt/compare/2.0.8...2.1.0) (2025-08-20)
 
 ### Features
