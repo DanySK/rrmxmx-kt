@@ -8,7 +8,7 @@ kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotl
 kotlin-multiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }
 dokka = "org.jetbrains.dokka:2.1.0"
 gitSemVer = "org.danilopianini.git-sensitive-semantic-versioning-gradle-plugin:7.0.4"
-kotlin-qa = "org.danilopianini.gradle-kotlin-qa:0.95.1"
+kotlin-qa = "org.danilopianini.gradle-kotlin-qa:0.96.0"
 npm-publish = "org.danilopianini.npm.publish:4.1.3"
 publishOnCentral = "org.danilopianini.publish-on-central:9.1.5"
 taskTree = "com.dorongold.task-tree:4.0.1"
