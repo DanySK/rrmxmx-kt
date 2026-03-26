@@ -1,3 +1,27 @@
+## [2.1.3](https://github.com/DanySK/rrmxmx-kt/compare/2.1.2...2.1.3) (2026-03-26)
+
+### Dependency updates
+
+* **deps:** update node.js to 22.21 ([#705](https://github.com/DanySK/rrmxmx-kt/issues/705)) ([5d0a33d](https://github.com/DanySK/rrmxmx-kt/commit/5d0a33d6ef28805d51a4f7572d42d78a1d32a42b))
+* **deps:** update node.js to 24.12 ([#725](https://github.com/DanySK/rrmxmx-kt/issues/725)) ([eed2cf4](https://github.com/DanySK/rrmxmx-kt/commit/eed2cf497b9cc592387d2f7781f1088fb2422dea))
+* **deps:** update node.js to 24.13 ([#729](https://github.com/DanySK/rrmxmx-kt/issues/729)) ([243d097](https://github.com/DanySK/rrmxmx-kt/commit/243d09771bb9b55fdd84ad276bc914fee1bb8e57))
+* **deps:** update node.js to 24.14 ([#735](https://github.com/DanySK/rrmxmx-kt/issues/735)) ([7a770e6](https://github.com/DanySK/rrmxmx-kt/commit/7a770e623b98e292678c5c4fc7488f9c33066445))
+* **deps:** update node.js to v24 ([#714](https://github.com/DanySK/rrmxmx-kt/issues/714)) ([f6b2b39](https://github.com/DanySK/rrmxmx-kt/commit/f6b2b39dc872bb8953e9836b37bba17b6249007c))
+
+### Documentation
+
+* **deps:** update plugin dokka to v2.2.0 ([#739](https://github.com/DanySK/rrmxmx-kt/issues/739)) ([61bc28d](https://github.com/DanySK/rrmxmx-kt/commit/61bc28d130d5d3e9b0a0325f2bf596310416cf02))
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v5.0.1 ([#719](https://github.com/DanySK/rrmxmx-kt/issues/719)) ([97f809d](https://github.com/DanySK/rrmxmx-kt/commit/97f809d3ecc72b6882b66ef9f2eb0ca09efc2ce8))
+* **deps:** update actions/checkout action to v6 ([#720](https://github.com/DanySK/rrmxmx-kt/issues/720)) ([333998f](https://github.com/DanySK/rrmxmx-kt/commit/333998f7319732c9b11a2f029427e0283d943f8e))
+* **deps:** update actions/checkout action to v6.0.1 ([#722](https://github.com/DanySK/rrmxmx-kt/issues/722)) ([891562f](https://github.com/DanySK/rrmxmx-kt/commit/891562f6f2eda1b90ac8850f39d3ab0590f0dcea))
+* **deps:** update actions/checkout action to v6.0.2 ([#732](https://github.com/DanySK/rrmxmx-kt/issues/732)) ([a83c15e](https://github.com/DanySK/rrmxmx-kt/commit/a83c15eece89e81da1a6dd10f345ccf09a55ecd0))
+* **deps:** update actions/setup-node action to v6.1.0 ([#723](https://github.com/DanySK/rrmxmx-kt/issues/723)) ([755090f](https://github.com/DanySK/rrmxmx-kt/commit/755090fea2da233ebb8489abf29fb2a31cc15640))
+* **deps:** update actions/setup-node action to v6.2.0 ([#730](https://github.com/DanySK/rrmxmx-kt/issues/730)) ([3f28f14](https://github.com/DanySK/rrmxmx-kt/commit/3f28f141c522a09e71b43e0ea7e79998497a420c))
+* **deps:** update actions/setup-node action to v6.3.0 ([#736](https://github.com/DanySK/rrmxmx-kt/issues/736)) ([58ec9f5](https://github.com/DanySK/rrmxmx-kt/commit/58ec9f5c97c79ed7107b6a1cb251472bcb5ea927))
+
 ## [2.1.2](https://github.com/DanySK/rrmxmx-kt/compare/2.1.1...2.1.2) (2025-10-15)
 
 ### Dependency updates
