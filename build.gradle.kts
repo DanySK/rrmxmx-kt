@@ -39,11 +39,8 @@ kotlin {
     }
 
     sourceSets {
-        val commonMain by getting { }
-        val commonTest by getting {
-            dependencies {
-                implementation(libs.kotlin.test)
-            }
+        commonTest.dependencies {
+            implementation(libs.kotlin.test)
         }
     }
 
@@ -117,9 +114,10 @@ kotlin {
 
 signing {
     if (System.getenv("CI") == "true") {
-        val signingKey: String? by project
-        val signingPassword: String? by project
-        useInMemoryPgpKeys(signingKey, signingPassword)
+        useInMemoryPgpKeys(
+            providers.gradleProperty("signingKey").orNull,
+            providers.gradleProperty("signingPassword").orNull,
+        )
     }
 }
 
@@ -152,9 +150,9 @@ npmPublish {
     registries {
         register("npmjs") {
             uri.set("https://registry.npmjs.org")
-            val npmToken: String? by project
+            val npmToken = providers.gradleProperty("npmToken")
             authToken.set(npmToken)
-            dry.set(npmToken.isNullOrBlank())
+            dry.set(npmToken.map { it.isBlank() }.orElse(true))
         }
     }
 }
