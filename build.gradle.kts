@@ -112,6 +112,15 @@ kotlin {
     }
 }
 
+/*
+ * Quick check for pull requests: JVM tests plus static analysis, without Kotlin/Native and JS toolchains.
+ */
+tasks.register("jvmCheck") {
+    group = "verification"
+    description = "Runs the JVM tests and the static analysis, skipping the non-JVM targets"
+    dependsOn("jvmTest", "detekt", "detektJvmMain", "detektJvmTest", "ktlintCheck", "cpdCheck")
+}
+
 signing {
     if (System.getenv("CI") == "true") {
         useInMemoryPgpKeys(
