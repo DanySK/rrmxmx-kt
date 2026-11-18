@@ -1,3 +1,40 @@
+## [3.0.0](https://github.com/DanySK/rrmxmx-kt/compare/2.1.3...3.0.0) (2026-11-18)
+
+### ⚠ BREAKING CHANGES
+
+* update the native targets configuration, skipping the construction of unused binaries
+
+### Dependency updates
+
+* **core-deps:** update dependency org.jetbrains.kotlin:kotlin-test to v2.2.21 ([221a84d](https://github.com/DanySK/rrmxmx-kt/commit/221a84d1cea085e5d434a4a86e34eac48b933b25))
+* **core-deps:** update dependency org.jetbrains.kotlin.multiplatform to v2.4.21 ([f5edc34](https://github.com/DanySK/rrmxmx-kt/commit/f5edc34efd1fcb8a605bd175d1008e72d5089d7d))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.158 ([b27bbf0](https://github.com/DanySK/rrmxmx-kt/commit/b27bbf0c39eff4370d849d8eb53a9d609ef4b7d1))
+* **deps:** update node.js to 24.15 ([#740](https://github.com/DanySK/rrmxmx-kt/issues/740)) ([0188b52](https://github.com/DanySK/rrmxmx-kt/commit/0188b5210c00e507bfdfe3fba805e39fca09cf85))
+* **deps:** update node.js to 24.16 ([#746](https://github.com/DanySK/rrmxmx-kt/issues/746)) ([e1230b3](https://github.com/DanySK/rrmxmx-kt/commit/e1230b39bdc048f1754209510774616a7266f4b5))
+* **deps:** update plugin com.gradle.develocity to v4.6.1 ([46803e1](https://github.com/DanySK/rrmxmx-kt/commit/46803e1d748736a75b3c189cd662f833247ab281))
+* **deps:** update plugin gitsemver to v7.0.25 ([7265204](https://github.com/DanySK/rrmxmx-kt/commit/7265204d42726ff3d5352aaacea7fe09f50c01df))
+* **deps:** update plugin kotlin-qa to v0.95.3 ([#712](https://github.com/DanySK/rrmxmx-kt/issues/712)) ([e443ba4](https://github.com/DanySK/rrmxmx-kt/commit/e443ba48b98f434d81ee3b4444b8f1428d3b635a))
+* **deps:** update plugin npm-publish to v4.1.11 ([c1ee111](https://github.com/DanySK/rrmxmx-kt/commit/c1ee1110a0ede75a32f8b929cc4d60c2d661bba2))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v2.1.27 ([999a372](https://github.com/DanySK/rrmxmx-kt/commit/999a372232ffa876c53b78c8e35a7de56adc711e))
+
+### Documentation
+
+* switch to DokkaV2 ([295f221](https://github.com/DanySK/rrmxmx-kt/commit/295f22131f24ff1ccf99d017c75432faf2548876))
+
+### Build and continuous integration
+
+* add a quick verification task ([800414f](https://github.com/DanySK/rrmxmx-kt/commit/800414f2bf27b449eca622c4b7b8f568da0c3b91))
+* **deps:** update actions/checkout action to v6.0.3 ([#744](https://github.com/DanySK/rrmxmx-kt/issues/744)) ([14b2aa7](https://github.com/DanySK/rrmxmx-kt/commit/14b2aa78e401993c06ba73d0a21ed2721707b884))
+* **deps:** update actions/checkout action to v7 ([#748](https://github.com/DanySK/rrmxmx-kt/issues/748)) ([a3c0d39](https://github.com/DanySK/rrmxmx-kt/commit/a3c0d39f39f8745971db59d620ed86709a9ebf26))
+* **deps:** update actions/setup-node action to v6.4.0 ([#741](https://github.com/DanySK/rrmxmx-kt/issues/741)) ([367c9e0](https://github.com/DanySK/rrmxmx-kt/commit/367c9e075e1dec5698f2d7d54a345848fc95e1a9))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v4.0.52 ([4d2d46e](https://github.com/DanySK/rrmxmx-kt/commit/4d2d46ec30846293a634fc1f18213d60d44c937a))
+* **deps:** update dependency macos to v26 ([#747](https://github.com/DanySK/rrmxmx-kt/issues/747)) ([df985ec](https://github.com/DanySK/rrmxmx-kt/commit/df985ec76d62fee7cd66c2cea444072ac25d50f5))
+* disable non-dry-run publications ([6fba4a2](https://github.com/DanySK/rrmxmx-kt/commit/6fba4a2d18094200d5c21d4da034cf4853ea0a08))
+* drop deprecated js configuration flag ([4ef8d1f](https://github.com/DanySK/rrmxmx-kt/commit/4ef8d1f5d0d43d6421fb0178daa313f07ca98b95))
+* drop the deprecated gradle delegates ([934ecd0](https://github.com/DanySK/rrmxmx-kt/commit/934ecd03f87f45fec3c5211efbcbda1e47c99edc))
+* switch to merge queues ([0edf4c7](https://github.com/DanySK/rrmxmx-kt/commit/0edf4c7f49d9ade5658f2ea313f99b7c05293144))
+* update the native targets configuration, skipping the construction of unused binaries ([de1e300](https://github.com/DanySK/rrmxmx-kt/commit/de1e300b7ebf22ef81bd75bffb3169d813d1441e))
+
 ## [2.1.3](https://github.com/DanySK/rrmxmx-kt/compare/2.1.2...2.1.3) (2026-03-26)
 
 ### Dependency updates
