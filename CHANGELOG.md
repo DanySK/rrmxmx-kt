@@ -1,3 +1,44 @@
+## [3.0.1](https://github.com/DanySK/rrmxmx-kt/compare/3.0.0...3.0.1) (2026-11-18)
+
+### Dependency updates
+
+* **deps:** update gradle to v9.2.1 ([#713](https://github.com/DanySK/rrmxmx-kt/issues/713)) ([4de8cf1](https://github.com/DanySK/rrmxmx-kt/commit/4de8cf183dfc1910d0e0a0c17402c4aff6111611))
+* **deps:** update gradle to v9.3.1 ([#731](https://github.com/DanySK/rrmxmx-kt/issues/731)) ([0df59ae](https://github.com/DanySK/rrmxmx-kt/commit/0df59ae9b29ecf77ea3ecf992e1965cf6e8e26a7))
+* **deps:** update gradle to v9.4.1 ([#737](https://github.com/DanySK/rrmxmx-kt/issues/737)) ([c17e9c8](https://github.com/DanySK/rrmxmx-kt/commit/c17e9c8954921e7c338b15ccdb6f57bce8ee085c))
+* **deps:** update gradle to v9.5.1 ([#743](https://github.com/DanySK/rrmxmx-kt/issues/743)) ([439e079](https://github.com/DanySK/rrmxmx-kt/commit/439e0792c10a572ef83e585e4ec8b36ddd4bb277))
+* **deps:** update gradle to v9.6.1 ([#749](https://github.com/DanySK/rrmxmx-kt/issues/749)) ([1ef18ad](https://github.com/DanySK/rrmxmx-kt/commit/1ef18ad0199df2d0b6d1709310c9a3f254f4405e))
+* **deps:** update gradle to v9.7.1 ([#759](https://github.com/DanySK/rrmxmx-kt/issues/759)) ([8774a7c](https://github.com/DanySK/rrmxmx-kt/commit/8774a7c0f512b3b1b4b46e487fbcf560843f1499))
+* **deps:** update gradle to v9.8.2 ([#760](https://github.com/DanySK/rrmxmx-kt/issues/760)) ([00cc73c](https://github.com/DanySK/rrmxmx-kt/commit/00cc73c60519060f0d1c9b72218f7f9c00bf2a2b))
+* **deps:** update gradle to v9.9.1 ([#754](https://github.com/DanySK/rrmxmx-kt/issues/754)) ([3bf5441](https://github.com/DanySK/rrmxmx-kt/commit/3bf54413d2a89a244058b343894a51ef2ac90591))
+* **deps:** update node.js to 24.17 ([#761](https://github.com/DanySK/rrmxmx-kt/issues/761)) ([ead0f4f](https://github.com/DanySK/rrmxmx-kt/commit/ead0f4f5e06c36ec2f918092b718fc66886a3ab4))
+* **deps:** update node.js to 24.18 ([#762](https://github.com/DanySK/rrmxmx-kt/issues/762)) ([a657770](https://github.com/DanySK/rrmxmx-kt/commit/a657770352d6e176add08862056c7dd5e993f72b))
+* **deps:** update node.js to 24.19 ([#763](https://github.com/DanySK/rrmxmx-kt/issues/763)) ([1ea02b3](https://github.com/DanySK/rrmxmx-kt/commit/1ea02b3ac0db41d83489d1117f903cb3169e72e7))
+* **deps:** update node.js to 24.20 ([#774](https://github.com/DanySK/rrmxmx-kt/issues/774)) ([c351e14](https://github.com/DanySK/rrmxmx-kt/commit/c351e148acc8140b40c087fc137c0b7339ce23f3))
+* **deps:** update node.js to 24.21 ([#775](https://github.com/DanySK/rrmxmx-kt/issues/775)) ([1b2facb](https://github.com/DanySK/rrmxmx-kt/commit/1b2facb00191b215a6c56b139f802f72ff8da27e))
+* **deps:** update node.js to 24.22 ([#755](https://github.com/DanySK/rrmxmx-kt/issues/755)) ([757376c](https://github.com/DanySK/rrmxmx-kt/commit/757376cca286bf116f8a8428ba11e35896fbe9fd))
+* **deps:** update node.js to v26 ([#758](https://github.com/DanySK/rrmxmx-kt/issues/758)) ([dce1dfd](https://github.com/DanySK/rrmxmx-kt/commit/dce1dfdbd5408526411458d5bd80725a894c25a1))
+* **deps:** update plugin gitsemver to v7.1.0 ([#776](https://github.com/DanySK/rrmxmx-kt/issues/776)) ([e66cbd5](https://github.com/DanySK/rrmxmx-kt/commit/e66cbd5cff81441446ce4e8adf55c5ec7c6ed874))
+* **deps:** update plugin gitsemver to v7.3.0 ([#757](https://github.com/DanySK/rrmxmx-kt/issues/757)) ([9dce3f6](https://github.com/DanySK/rrmxmx-kt/commit/9dce3f69e78c8be4bfa0c73374465b0d90feb021))
+* **deps:** update plugin kotlin-qa to v0.97.0 ([#717](https://github.com/DanySK/rrmxmx-kt/issues/717)) ([72b00f3](https://github.com/DanySK/rrmxmx-kt/commit/72b00f323d27f9d76c50606706390d5925a02c97))
+* **deps:** update plugin publishoncentral to v9.1.15 ([#711](https://github.com/DanySK/rrmxmx-kt/issues/711)) ([57126c3](https://github.com/DanySK/rrmxmx-kt/commit/57126c3f0b01cf79a31ce9267277b0088f213ee7))
+* **deps:** update plugin publishoncentral to v9.2.15 ([#742](https://github.com/DanySK/rrmxmx-kt/issues/742)) ([ccbcec1](https://github.com/DanySK/rrmxmx-kt/commit/ccbcec1b367efdee6050db39029360c5777daab8))
+* **deps:** update plugin publishoncentral to v9.3.2 ([#781](https://github.com/DanySK/rrmxmx-kt/issues/781)) ([b8c97ec](https://github.com/DanySK/rrmxmx-kt/commit/b8c97ec6e0734fed041d0de7af30b2c34d51cf4e))
+* **deps:** update plugin tasktree to v4.0.2 ([#750](https://github.com/DanySK/rrmxmx-kt/issues/750)) ([d0bc838](https://github.com/DanySK/rrmxmx-kt/commit/d0bc8384f8f84119c24050a15c773ac8c515a59b))
+
+### Documentation
+
+* **deps:** update plugin dokka to v2.3.0 ([#783](https://github.com/DanySK/rrmxmx-kt/issues/783)) ([1ae0755](https://github.com/DanySK/rrmxmx-kt/commit/1ae075571a698926cbf43639f38ee10fac97345f))
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v7.0.1 ([#751](https://github.com/DanySK/rrmxmx-kt/issues/751)) ([4f9fed2](https://github.com/DanySK/rrmxmx-kt/commit/4f9fed25736ba4950b47f2bb0abe3754ae23adf6))
+* **deps:** update actions/setup-node action to v6.5.0 ([#782](https://github.com/DanySK/rrmxmx-kt/issues/782)) ([1a86109](https://github.com/DanySK/rrmxmx-kt/commit/1a86109bd124041ec865f86822d8e9705a26a8d2))
+* **deps:** update actions/setup-node action to v7 ([#784](https://github.com/DanySK/rrmxmx-kt/issues/784)) ([cd58a88](https://github.com/DanySK/rrmxmx-kt/commit/cd58a8855e2e5da431b3ca43b46a3b27dfd8966e))
+* **deps:** update dependency macos github actions runner to v26 ([#789](https://github.com/DanySK/rrmxmx-kt/issues/789)) ([0c30e71](https://github.com/DanySK/rrmxmx-kt/commit/0c30e7199f8733d6579f587fde47069a6ed56af0))
+* **deps:** update dependency ubuntu github actions runner to v26 ([#793](https://github.com/DanySK/rrmxmx-kt/issues/793)) ([cc627a7](https://github.com/DanySK/rrmxmx-kt/commit/cc627a756f0eaa7a7f05eda8db38f2f2b974947c))
+* **deps:** update dependency ubuntu to v26 ([#794](https://github.com/DanySK/rrmxmx-kt/issues/794)) ([afb85b7](https://github.com/DanySK/rrmxmx-kt/commit/afb85b784a5e1f1bd57ac5ce044488f5b4425980))
+* **deps:** update peter-evans/create-pull-request action to v8.1.3 ([#771](https://github.com/DanySK/rrmxmx-kt/issues/771)) ([9e4fb25](https://github.com/DanySK/rrmxmx-kt/commit/9e4fb25e93031dc3bf1e92410380321fa4f83401))
+
 ## [3.0.0](https://github.com/DanySK/rrmxmx-kt/compare/2.1.3...3.0.0) (2026-11-18)
 
 ### ⚠ BREAKING CHANGES
