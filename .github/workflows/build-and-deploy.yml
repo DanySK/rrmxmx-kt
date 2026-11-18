@@ -26,16 +26,6 @@ jobs:
         with:
           fetch-depth: 0
           fetch-tags: true
-      - name: Determine dry-run flag
-        id: check_branch
-        shell: bash
-        run: |
-          ruby << 'RUBY' >> $GITHUB_OUTPUT
-            branch = ENV['GITHUB_REF'].sub(/^refs\/heads\//, '')
-            keywords = %w[gradle kotlin publish release deploy]
-            dry = keywords.any? { |kw| branch.include?(kw) } ? '' : '--dry-run'
-            puts "dry_run=#{dry}"
-          RUBY
       - uses: DanySK/build-check-deploy-gradle-action@4.0.52
         with:
           deploy-command: >-
@@ -43,7 +33,7 @@ jobs:
             publishAllPublicationsToProjectLocalRepository 
             zipMavenCentralPortalPublication
             releaseMavenCentralPortalPublication
-            ${{ steps.check_branch.outputs.dry_run }}
+            --dry-run
           should-run-codecov: ${{ runner.os == 'Linux' }}
           codecov-token: ${{ secrets.CODECOV_TOKEN }}
           should-deploy: ${{ runner.os == 'macos' && steps.require-secrets.outputs.run-with-secrets == 'true' }}
