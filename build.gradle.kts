@@ -1,6 +1,5 @@
 @file:OptIn(ExperimentalKotlinGradlePluginApi::class, ExperimentalWasmDsl::class)
 
-import org.gradle.internal.os.OperatingSystem
 import org.jetbrains.kotlin.gradle.ExperimentalKotlinGradlePluginApi
 import org.jetbrains.kotlin.gradle.ExperimentalWasmDsl
 import org.jetbrains.kotlin.gradle.dsl.JvmTarget
@@ -68,8 +67,9 @@ kotlin {
 
     val nativeSetup: KotlinNativeTarget.() -> Unit = {
         binaries {
-            sharedLib()
-            staticLib()
+            // uncomment these lines to produce native executables. Not needed for a pure Kotlin library.
+//            sharedLib()
+//            staticLib()
         }
     }
 
@@ -84,43 +84,32 @@ kotlin {
      */
     mingwX64(nativeSetup)
     /*
+     * Android Native
+     */
+    androidNativeArm32(nativeSetup)
+    androidNativeArm64(nativeSetup)
+    androidNativeX86(nativeSetup)
+    androidNativeX64(nativeSetup)
+    /*
      * Apple OSs
      */
-    macosX64(nativeSetup)
     macosArm64(nativeSetup)
     iosArm64(nativeSetup)
-    iosX64(nativeSetup)
     iosSimulatorArm64(nativeSetup)
-    watchosArm32(nativeSetup)
-    watchosX64(nativeSetup)
-    watchosSimulatorArm64(nativeSetup)
     tvosArm64(nativeSetup)
-    tvosX64(nativeSetup)
     tvosSimulatorArm64(nativeSetup)
-
-    val os = OperatingSystem.current()
-    val excludeTargets =
-        when {
-            os.isLinux -> kotlin.targets.filterNot { "linux" in it.name }
-            os.isWindows -> kotlin.targets.filterNot { "mingw" in it.name }
-            os.isMacOsX -> kotlin.targets.filter { "linux" in it.name || "mingw" in it.name }
-            else -> emptyList()
-        }.mapNotNull { it as? KotlinNativeTarget }
-
-    configure(excludeTargets) {
-        compilations.configureEach {
-            cinterops.configureEach { tasks[interopProcessingTaskName].enabled = false }
-            compileTaskProvider.get().enabled = false
-            tasks[processResourcesTaskName].enabled = false
-        }
-        binaries.configureEach { linkTaskProvider.configure { enabled = false } }
-
-        mavenPublication {
-            tasks.withType<AbstractPublishToMaven>().configureEach {
-                onlyIf { publication != this@mavenPublication }
-            }
-            tasks.withType<GenerateModuleMetadata>().configureEach {
-                onlyIf { publication.get() != this@mavenPublication }
+    watchosArm32(nativeSetup)
+    watchosArm64(nativeSetup)
+    watchosSimulatorArm64(nativeSetup)
+    watchosDeviceArm64(nativeSetup)
+    // Shared configuration
+    targets.all {
+        compilations.all {
+            compileTaskProvider.configure {
+                compilerOptions {
+                    allWarningsAsErrors = true
+                    freeCompilerArgs.add("-Xexpect-actual-classes")
+                }
             }
         }
     }
