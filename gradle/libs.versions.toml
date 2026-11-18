@@ -11,4 +11,4 @@ gitSemVer = "org.danilopianini.git-sensitive-semantic-versioning-gradle-plugin:7
 kotlin-qa = "org.danilopianini.gradle-kotlin-qa:0.95.3"
 npm-publish = "org.danilopianini.npm.publish:4.1.11"
 publishOnCentral = "org.danilopianini.publish-on-central:9.1.15"
-taskTree = "com.dorongold.task-tree:4.0.1"
+taskTree = "com.dorongold.task-tree:4.0.2"
