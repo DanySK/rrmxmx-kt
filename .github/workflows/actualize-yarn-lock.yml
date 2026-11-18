@@ -7,27 +7,31 @@ on:
 
 jobs:
   update-ancillary-files:
-    permissions:
-      contents: write
     runs-on: ubuntu-24.04
     steps:
       - name: Checkout
         uses: actions/checkout@v7.0.0
         with:
           fetch-depth: '0'
-          token: ${{ github.token }}
       - uses: DanySK/build-check-deploy-gradle-action@4.0.52
         with:
           build-command: |
             ./gradlew kotlinUpgradeYarnLock --parallel
-          check-command: |
-            git config user.name 'Danilo Pianini [bot]'
-            git config user.email 'danilo.pianini@gmail.com'
-            if git status | grep -P '^\s+modified:\s+kotlin-js-store\/yarn\.lock$'; then
-              git add kotlin-js-store/yarn.lock
-              git commit -m 'chore(build): actualize the `yarn.lock` file'
-              git pull --rebase
-              git push
-            fi
+          check-command: true
           should-run-codecov: false
           should-deploy: false
+      # Goes through the merge queue like any other change.
+      # Uses a personal token: pull requests opened with GITHUB_TOKEN do not trigger the CI.
+      - name: Open or update the pull request
+        uses: peter-evans/create-pull-request@v8.1.1
+        with:
+          token: ${{ secrets.DEPLOYMENT_TOKEN }}
+          branch: ancillary/actualize-yarn-lock
+          delete-branch: true
+          add-paths: kotlin-js-store/yarn.lock
+          commit-message: 'chore(build): actualize the `yarn.lock` file'
+          committer: 'Danilo Pianini [bot] <danilo.pianini@gmail.com>'
+          author: 'Danilo Pianini [bot] <danilo.pianini@gmail.com>'
+          title: 'chore(build): actualize the `yarn.lock` file'
+          body: Automatic update of `kotlin-js-store/yarn.lock` after the last changes on `master`.
+          labels: ancillary
