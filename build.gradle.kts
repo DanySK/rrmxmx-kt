@@ -1,9 +1,12 @@
 @file:OptIn(ExperimentalKotlinGradlePluginApi::class, ExperimentalWasmDsl::class)
 
+import dev.detekt.gradle.Detekt
 import org.jetbrains.kotlin.gradle.ExperimentalKotlinGradlePluginApi
 import org.jetbrains.kotlin.gradle.ExperimentalWasmDsl
 import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 import org.jetbrains.kotlin.gradle.plugin.mpp.KotlinNativeTarget
+import org.jetbrains.kotlin.gradle.targets.jvm.tasks.KotlinJvmTest
+import org.jlleitschuh.gradle.ktlint.tasks.KtLintCheckTask
 
 plugins {
     alias(libs.plugins.kotlin.multiplatform)
@@ -118,7 +121,9 @@ kotlin {
 tasks.register("jvmCheck") {
     group = "verification"
     description = "Runs the JVM tests and the static analysis, skipping the non-JVM targets"
-    dependsOn("jvmTest", "detekt", "detektJvmMain", "detektJvmTest", "ktlintCheck", "cpdCheck")
+    dependsOn(tasks.withType<Detekt>())
+    dependsOn(tasks.withType<KtLintCheckTask>())
+    dependsOn(tasks.withType<KotlinJvmTest>())
 }
 
 signing {
