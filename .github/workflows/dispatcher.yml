@@ -49,4 +49,5 @@ jobs:
     permissions:
       contents: write
       packages: write
+      id-token: write # npm trusted publishing (OIDC), see build-and-deploy.yml
     secrets: inherit

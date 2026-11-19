@@ -156,12 +156,29 @@ publishOnCentral {
 }
 
 npmPublish {
+    packages.configureEach {
+        packageJson {
+            // Required by npm trusted publishing: it must match the repository publishing the package
+            repository {
+                type.set("git")
+                url.set("git+https://github.com/DanySK/${rootProject.name}.git")
+            }
+        }
+    }
     registries {
         register("npmjs") {
             uri.set("https://registry.npmjs.org")
-            val npmToken = providers.gradleProperty("npmToken")
+            /*
+             * Trusted publishing: in GitHub Actions with the `id-token: write` permission,
+             * npm authenticates through OIDC and needs no token.
+             * A token (if provided) is still supported, e.g., for manual publications.
+             */
+            val npmToken = providers.gradleProperty("npmToken").filter { it.isNotBlank() }
             authToken.set(npmToken)
-            dry.set(npmToken.map { it.isBlank() }.orElse(true))
+            val oidcAvailable = providers.environmentVariable("ACTIONS_ID_TOKEN_REQUEST_URL")
+                .map { it.isNotBlank() }
+                .orElse(false)
+            dry.set(npmToken.map { false }.orElse(oidcAvailable.map { !it }))
         }
     }
 }
