@@ -1,3 +1,17 @@
+## [3.0.2](https://github.com/DanySK/rrmxmx-kt/compare/3.0.1...3.0.2) (2026-11-19)
+
+### Dependency updates
+
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.159 ([#815](https://github.com/DanySK/rrmxmx-kt/issues/815)) ([81268a1](https://github.com/DanySK/rrmxmx-kt/commit/81268a11b20832d45e019a2f07d0994ef41bf5db))
+
+### Bug Fixes
+
+* **release:** publish to npm through trusted publishing ([bf7f53a](https://github.com/DanySK/rrmxmx-kt/commit/bf7f53ab437fa3c5a1b86d8b0e948a4d7325813a))
+
+### Style improvements
+
+* copy ktlint rules from AlchemistSimulator/Alchemist and reformat ([7ed29d7](https://github.com/DanySK/rrmxmx-kt/commit/7ed29d794612d29d1d68dc3331a288218e7a7a31))
+
 ## [3.0.1](https://github.com/DanySK/rrmxmx-kt/compare/3.0.0...3.0.1) (2026-11-18)
 
 ### Dependency updates
